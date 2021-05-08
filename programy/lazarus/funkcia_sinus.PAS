@@ -1,0 +1,51 @@
+{Peter Plevko, Septima A, Sk. rok 2016/17
+ Program na vypocitanie sinusu
+ Vstupne podmienky: uhol v stupnoch
+ Vystupne podmienky: sinus}
+program sinus;
+uses crt;
+var poc,pom,menovatel:integer;
+    p,x,citatel,vysledok,pom_cislo:real;
+    anonie:char;
+
+    procedure nadpis;
+    begin
+    writeln('               *********************************************');
+    writeln('               *                  Sinus                    *') ;
+    writeln('               *********************************************') ;
+    end;
+
+    begin
+    repeat
+    clrscr;
+    nadpis;
+    write('zadaj uhol v stupnoch: ');
+    readln(x);
+    x:=x*pi/180;
+    write('zadaj odchylku: ');
+    readln(p);
+    writeln('1 rad = 57_17_45');
+    vysledok:=0;
+    poc:=0;
+    pom:=1;
+    citatel:=x;
+    menovatel:=1;
+    repeat
+    poc:=poc+1;
+    if not(poc=1) then
+    menovatel:=menovatel*pom*(pom-1);
+    pom_cislo:=citatel/menovatel;
+    if (poc mod 2)=0 then vysledok:=vysledok-pom_cislo
+                     else vysledok :=vysledok+pom_cislo;
+    pom:=pom+2;
+    citatel:=citatel*x*x;
+    until(pom_cislo<=p);
+    writeln('sinus uhla ',x:5:2,' rad alebo sinus ',x*180/pi:3:0,' stupnov je: ',vysledok:7:6);
+    writeln;writeln;writeln;
+      repeat
+   gotoxy(1,20);
+   write ('Ak chces pokracovat napis A ak nie tak napis N: ');
+   anonie:=readkey;
+  until (upcase(anonie) ='N') or (upcase(anonie) ='A');
+ until  upcase(anonie) = 'N';
+end.

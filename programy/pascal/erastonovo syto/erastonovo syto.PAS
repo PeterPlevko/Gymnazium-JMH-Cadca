@@ -1,0 +1,69 @@
+{Peter Plevko, Septima A, Sk. rok 2016/17
+ Vypisanie prvociel po uzivatelom zadane cislo pomocou erasthetonovho syta
+ Vstupne podmienky: cele kladne cislo po ktore sa ma vypisat rad prvocisel
+ Vystupne podmienky: rad prvocisel po zadane cislo (cele kladne cisla)}
+program erasyto;
+uses crt;
+var pocet,i,k:integer;
+    test:real;
+    anonie:char;
+    cisla:array [1..1000] of integer;
+procedure nadpis;
+          begin
+           clrscr;
+           writeln ('                               Hladanie prvocisel');
+           writeln;
+           writeln;
+          end;
+procedure ochrana (var cislo:real; cele,vacsi,mensi:boolean);
+ var dol_hr,hor_hr:integer;
+  begin
+          dol_hr:=0;
+          hor_hr:=1000;
+          nadpis;
+          write ('Zadaj po ake cislo: ');
+          readln (cislo);
+          while (((trunc(cislo))<>cislo) and cele) or ((cislo<=dol_hr) and vacsi) or ((cislo>=hor_hr) and mensi) do
+          begin
+           nadpis;
+
+           if not(trunc(cislo)=cislo) then
+                                      write ('Zadal si realne cislo zadaj znova:')
+           else if cislo<=dol_hr then
+                                 write ('Zadal si cislo mensie ako ',dol_hr + 1,' zadaj znova:')
+           else if cislo>=hor_hr then
+                                 write ('Zadal si cislo vacsie ako ',hor_hr -1,' zadaj znova:');
+           readln (cislo);
+          end;
+         end;
+begin
+ repeat
+  ochrana (test,true,true,true);
+  pocet:=trunc(test);
+  for i:=1 to pocet do cisla[i]:=i;
+  for i:=2 to (pocet div 2) do begin
+                    for k:=i+1 to pocet do begin
+                                                  if ((cisla[k] mod i)=0)  then
+                                                                           cisla[k]:=0;
+                                                  end;
+                           end;
+  clrscr;
+  writeln ('                               Hladanie prvocisel');
+  writeln;
+  writeln;
+  write ('Prvocisla po cislo ',pocet,' su: ');
+  for i:=2 to pocet do
+                    if cisla[i]>0 then
+                                  write (cisla[i],',');
+  readln;
+  repeat
+   clrscr;
+   writeln ('                               Hladanie prvocisel');
+   writeln;
+   writeln;
+   write ('Ak chces pokracovat napis A ak nie tak napis N: ');
+   anonie:=readkey;
+  until (upcase(anonie) ='N') or (upcase(anonie) ='A');
+ until  upcase(anonie) = 'N';
+end.
+

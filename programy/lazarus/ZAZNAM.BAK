@@ -1,0 +1,68 @@
+program kamil;
+uses crt;
+var
+zaznam: record
+meno:string;
+priezvisko:string;
+narodnost:string;
+cas:string;
+poradie:integer;
+
+end;
+begin
+clrscr;
+writeln('                            Sportove vysledky');
+
+{writeln('napis meno');
+readln(zaznam.meno);
+{writeln('napis priezvisko') ;
+readln(zaznam.priezvisko);
+{writeln('napis vek');
+readln(zaznam.vek);   }
+gotoxy(1,2);
+writeln('        ษอออออออออออหออออออออออออออหออออออออหอออออออออออออหอออออออป');
+writeln('        บ  poradie  บ  priezvisko  บ  meno  บ  narodnost  บ  cas  บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        บ           บ              บ        บ             บ       บ');
+writeln('        ศอออออออออออสออออออออออออออสออออออออสอออออออออออออสอออออออผ');
+zaznam.meno:='Kamil';
+gotoxy(37,4);
+writeln(zaznam.meno);
+
+zaznam.priezvisko:='Bazelides';
+gotoxy(22,4);
+writeln(zaznam.priezvisko);
+
+zaznam.poradie:=1;
+gotoxy(15,4);
+writeln(zaznam.poradie);
+
+zaznam.narodnost:='Slovenska';
+gotoxy(46,4);
+writeln(zaznam.narodnost);
+
+zaznam.cas:='4.5s';
+gotoxy(60,4);
+writeln(zaznam.cas);
+
+
+readln;
+
+
+
+end.

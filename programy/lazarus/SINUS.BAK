@@ -1,0 +1,42 @@
+{Peter Plevko, Septima A, Sk. rok 2017/18
+ Program vypocita funkciu sinusu
+ Vstupne podmienky: cislo, presnost
+ Vystupne podmienky: vysledok goniometrickej funkcie }
+program sinus;
+uses crt;
+var kontrola,priklad1,priklad,ratac,kamil,i,exponent,presnost,premenna:longint;
+    anonie :char;
+function faktorial (k:longint):longint;
+ var i,m:longint;
+ begin
+ m:=1;
+ for i:=m to k do m:=m*i;
+ faktorial:=m;
+ end;
+begin
+
+ {repeat}
+ clrscr;
+ writeln('napis cislo');
+ readln(premenna);
+ writeln('napis presnost');
+ readln(presnost);
+ exponent:=1;
+ for i:=1 to exponent do premenna:=premenna*premenna;
+ ratac:=ratac+1;
+ if ratac/2=0 then premenna:=premenna
+                       else premenna:=premenna*(-1);
+exponent:=faktorial(exponent);
+priklad1:=premenna/exponent;
+
+ priklad1:=priklad1+priklad1;
+ exponent:=exponent+2;
+ writeln(priklad1);
+ { repeat
+  gotoxy(1,20);
+  write ('Ak chces pokracovat napis A ak nie tak napis N: ');
+  anonie:=readkey;
+  until (upcase(anonie) ='N') or (upcase(anonie) ='A');
+ until  upcase(anonie) = 'N';      }
+ readln;
+end.

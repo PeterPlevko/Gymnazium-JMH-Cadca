@@ -1,0 +1,13 @@
+program zistenie_suboru;
+uses crt;
+var subor:file;
+begin
+clrscr;
+assign(subor,'c:\skuska.bin');
+{$I-}
+reset(subor);
+if IOresult = 0 then writeln ('subor existuje')
+else writeln('subor neexistuje');
+{$I+}
+readln;
+end.

@@ -1,0 +1,117 @@
+{Nikola Cudrakova, Septima A, 2017/2018}
+{Program zisti, ci je spravne uzatvorkovanie}
+{Vst:zatvorky}
+{Vyst:spravne/nespravne uzatvorkovanie}
+Program zatvorka;
+uses crt;
+     var  zatvorky: string;
+          i,s:integer;
+          odpoved: char;
+          myStack:Array[1..100] of Char;
+          ukazovatel:Integer; {horny ukazovatel}
+          vrchol:char;
+
+Procedure Meno_Programu;
+Begin
+ clrscr;
+ writeln('                                ZATVORKY');
+ writeln('                             **************');
+ writeln;
+End;
+
+Procedure Vypis_Zasobnik;
+Begin
+ for s:=1 to ukazovatel do
+  Begin
+   write(myStack[s],' ');
+  End;
+  writeln;
+End;
+
+Function Prazdny: Boolean;
+Begin
+ Prazdny:=false;
+  if (ukazovatel=0) then
+   Prazdny:=true;
+End;
+
+Function Plny:Boolean;
+Begin
+ Plny:=false;
+ if ((ukazovatel+1)=100) then
+  Plny:=true;
+End;
+
+Function zmaz:Char;
+Begin
+ zmaz:=' ';
+ if not Prazdny then
+  Begin
+   zmaz:=mystack[ukazovatel];
+   ukazovatel:=ukazovatel-1;
+  End;
+End;
+
+Procedure uloz (item:Char);
+Begin
+ if not Plny then
+  Begin
+   myStack[ukazovatel+1]:=item;
+   ukazovatel:=ukazovatel+1;
+  End;
+End;
+
+Function GetSize:Integer;
+ Begin
+  GetSize:=ukazovatel;
+ End;
+
+Begin
+repeat
+Meno_Programu;
+ukazovatel:=0;
+write('Zadaj retazec zatvoriek:'); readln(zatvorky);
+for i:=1 to length(zatvorky) do
+ Begin
+  if zatvorky[i]='(' then
+   Begin
+    uloz('(');
+    Vypis_Zasobnik;
+   End;
+  if zatvorky[i]=')' then
+   Begin
+    vrchol:=zmaz;
+    Vypis_Zasobnik;
+    if vrchol<>'(' then
+     Begin
+     writeln('Zatvorky ',zatvorky,' su nespravne uzatvorkovane.');
+     break;
+     End;
+   End;
+End;
+
+if GetSize=0 then
+writeln('Zatvorky ',zatvorky,' su spravne uzatvorkovane.');
+
+if GetSize<>0 then
+ Begin
+  writeln('Zatvorky ',zatvorky,' su nespravne uzatvorkovane.');
+ End;
+
+
+
+gotoxy(1,20);
+write('Chces pokracovat? a/n:');
+ repeat
+  odpoved:=readkey;
+  if (odpoved<>'a') and (odpoved<>'n') then
+    Begin
+    clrscr;
+    Meno_programu;
+    write('Zadali ste nespravny znak. Zadaj znovu (a/n):');
+    End;
+  until (odpoved='n') or (odpoved='a')
+until(odpoved='n');
+
+readln;
+End.

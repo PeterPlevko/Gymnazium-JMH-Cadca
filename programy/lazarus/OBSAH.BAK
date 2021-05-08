@@ -1,0 +1,69 @@
+{Nikola Cudrakova, Septima A, 2017/2018}
+{Program vypocita obsah lichobeznika z grafu}
+{VST:cele cisla}
+{VYST:Obsah lichobeznika}
+Program Obsah;
+uses crt;
+     var X,vys1,dolna,horna,p1,p2,p3,vys:integer;
+         i,j,stupenp:Integer;
+         odpoved:Char;
+         cisla:Array[1..100] of integer;
+
+Procedure Meno_programu;
+Begin
+ clrscr;
+ writeln('                            OBSAH UTVARU Z GRAFU');
+ writeln('                         **************************');
+ writeln('               Program vypocita zo zadanych intervalov hodnotu.');
+ writeln;
+End;
+
+Procedure Horner_schema;
+Begin
+  p1:=cisla[i]*X;
+   for i:=1 to stupenp do
+    Begin
+    p2:=p1+cisla[i];
+    p1:=p2*X;
+    End;
+End;
+
+Begin
+repeat
+Meno_programu;
+write(' Zadaj dolnu hranicu intervalu:'); readln(dolna);
+write(' Zadaj hornu hranicu intervalu:'); readln(horna);
+Meno_Programu;
+writeln('Zadali ste interval od ',dolna,' do ',horna,'.');
+write('Zadaj stupen polynomu:'); readln(stupenp);
+ for i:=0 to stupenp do
+  Begin
+   write('* Zadaj koeficient A[',i,']:'); readln(cisla[i]);
+  End;
+
+X:=dolna;
+Horner_Schema;
+p3:=p2;
+X:=horna;
+Horner_Schema;
+Meno_Programu;
+writeln(' Zapis vyzera:');
+writeln;
+writeln(' (',p3,'+',p2,')*(',horna,'-',dolna,')/2');
+writeln;
+writeln(' Vysledok je:',(((p3+p2)*(horna-dolna))/2):3:2);
+gotoxy(1,20);
+write('Chces pokracovat? a/n:');
+ repeat
+  odpoved:=readkey;
+  if (odpoved<>'a') and (odpoved<>'n') then
+    Begin
+    clrscr;
+    Meno_programu;
+    write('Zadali ste nespravny znak. Zadaj znovu (a/n):');
+    End;
+  until (odpoved='n') or (odpoved='a')
+until(odpoved='n');
+readln;
+End.
+

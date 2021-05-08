@@ -1,0 +1,85 @@
+{Martin Gajdos, trieda: 3.E, sk. r. 2015/2016}
+{Program na urcenie n-teho clena Fibonociho postupnosti}
+{VST: Poradovy clen}
+{VYS: Cislo vo Fibonaciho postupnosti}
+
+PROGRAM FIBONOCIHO_RAD;
+USES CRT;
+VAR  N_1:REAL;
+     CISLO_1, CISLO_2, POM, CISLO: REAL;
+     POM1, i, N:INTEGER;
+     TEST:CHAR;
+
+
+PROCEDURE HLAVICKA;
+
+ BEGIN
+  TEXTCOLOR(GREEN);
+  WRITE('                     FIBONACIHO POSTUPNOST');
+  TEXTCOLOR(CYAN);
+  GOTOXY(1,3);
+  WRITELN(' TENTO PROGRAM NAM UMOZNUJE ZISTIT HODNOTU N-TEHO CLENA FIB.');
+  WRITELN(' POSTUPNOSTI. FIBONACIHO POSTUPNOST JE POSTUPNOST CISEL, KDE');
+  WRITELN(' KAZDE NASLEDUJUCE CISLO JE SUCTOM PREDCHADZAJUCICH 2 CISEL ');
+  WRITELN(' ___________________________________________________________');
+  GOTOXY(1,8);
+  NORMVIDEO;
+ END;
+
+
+PROCEDURE KONIEC;
+
+BEGIN
+  GOTOXY(1,23);
+  WRITELN(' CHCETE POKRACOVAT? AK ANO ZADAJTE "A" AK NIE ZADAJTE "N" ');
+  TEST:=READKEY;
+  WHILE (TEST<>'A') AND (TEST<>'a') AND
+        (TEST<>'N') AND
+        (TEST<>'n') DO
+   BEGIN
+    WRITELN;
+    GOTOXY(1,24);
+    WRITE(' POZOR! ZADAL SI NESPRAVNY ZNAK, ZADAJ ZNOVA: ');
+    TEST:=READKEY;
+   END;
+  READLN;
+END;
+
+
+BEGIN
+ REPEAT
+  N_1:=0;
+  i:=0;
+  N:=0;
+  CISLO_1:=0;
+  CISLO_2:=0;
+  POM:=0;
+  CISLO:=0;
+  CLRSCR;
+  HLAVICKA;
+  WRITE('ZADAJ PORADOVE CISLO FIBUNOCIHO RADU: ');
+  READ(N_1);
+  WHILE (N_1<0) OR (N_1<>TRUNC(N_1)) DO
+   BEGIN
+   IF N_1<0 THEN WRITE('  POZOR! ZADAL SI ZAPORNE CISLO, ZADAJ ZNOVA: ')
+            ELSE WRITE('  POZOR! ZADAL SI DESATINNE CISLO, ZADAJ ZNOVA: ');
+   READ(N_1);
+   END;
+  CLRSCR;
+  HLAVICKA;
+  CISLO_1:=1;
+  CISLO_2:=1;
+  N:=TRUNC(N_1);
+  FOR i:=1 TO N-1 DO
+                    BEGIN
+                     CISLO:=CISLO_1+CISLO_2;
+                     POM:=0;
+                     POM:=CISLO;
+                     CISLO_1:=CISLO_2;
+                     CISLO_2:=CISLO;
+                    END;
+  IF (N_1=0) OR (N_1=1) THEN POM:=1;
+  WRITE(N,'. CISLO FIBUNOCIHO POSTUPNOSTI JE:',POM:10:0);
+  KONIEC;
+ UNTIL (TEST='N') OR (TEST='n');
+END.

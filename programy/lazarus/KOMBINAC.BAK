@@ -1,0 +1,20 @@
+program kombinacne_cislo;
+var n,k:integer;
+c:real;
+function faktorial (k:integer):longint;
+var i,m:longint;
+begin
+m:=1;
+for i:=m to k do m:=m*i;
+faktorial:=m;
+end;
+
+begin
+writeln('zadaj celkovy pocet n: ');
+readln(n);
+writeln('Zadaj pocet prvkov v skupine k: ');
+read(k);
+c:=faktorial(n)/faktorial(n-k)/faktorial(k);
+writeln('pocet moznosti je ',trunc(c));
+readln;
+end.

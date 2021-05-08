@@ -1,0 +1,58 @@
+{Peter Plevko, Septima A, Sk. rok 2016/17
+ Program hra kamen noznice papier
+ Vstupne podmienky: Kamen/Papier/noznice
+ Vystupne podmienky: vyhra, prehra }
+program kamil;
+uses crt;
+var na,vol:integer;
+    anonie:char;
+
+begin
+repeat
+randomize;
+ repeat
+ clrscr;
+ writeln('               *********************************************');
+ writeln('               *      Program Kamen/Papier/noznice         *') ;
+ writeln('               *********************************************') ;
+ writeln('co zvolis ?');
+ writeln('1.Kamen');
+ writeln('2.Papier');
+ writeln('3.noznice');
+ write('volba: ');
+ readln(vol);
+ if vol = 3 then writeln ('Zvolil si: noznice');
+ if vol = 2 then writeln ('Zvolil si: papier');
+ if vol = 1 then writeln ('Zvolil si: kamen');
+ until((vol<4)and(vol>0));
+{1=kamen
+2=papier
+3=noznice}
+case vol of
+1:begin {kamen};
+na:=random(3)+1;
+if na=1 then writeln ('Super zvolil: kamen, nerozhodne');
+if na=2 then writeln ('Super zvolil: papier prehral si');
+if na=3 then writeln ('Super zvolil: noznice vyhral si');
+end;
+2:begin {papier}
+na:=random(3)+1;
+if na=1 then writeln('Super zvolil: kamen, vyhral si') ;
+if na=2 then writeln('Super zvolil: papier, nerozhodne');
+if na=3 then writeln('Super zvolil: noznice, prehral si');
+end;
+3:begin {noznice}
+na:=random(3)+1;
+if na=1 then writeln ('Super zvolil: kamen prehral si');
+if na=2 then writeln ('Super zvolil: papier nerozhodne');
+if na=3 then writeln ('Super zvolil: noznice nerozhodne');
+end;
+end;
+ repeat
+  gotoxy(1,20);
+  write ('Ak chces pokracovat napis A ak nie tak napis N: ');
+  anonie:=readkey;
+  until (upcase(anonie) ='N') or (upcase(anonie) ='A');
+ until  upcase(anonie) = 'N';
+end.
+

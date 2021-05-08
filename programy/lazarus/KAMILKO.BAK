@@ -1,0 +1,35 @@
+program sinus;
+uses crt;
+var poc,pom,menovatel:integer;
+    p,x,citatel,vysledok,pom_cislo:real;
+    koniec:char;
+
+    procedure hlavicka;
+    begin
+    writeln; writeln('program na vypocet sinusu');
+    writeln;writeln;writeln;
+    end;
+
+    begin
+    repeat
+    clrscr;
+    hlavicka;
+    write('zadaj uhol v stupnoch: '); readln(x);
+    x:=x*pi/180;
+    write('zadaj odchylku: ');readln(p);
+    vysledok:=x;poc:=0;pom:=1;citatel:=x;menovatel:=1;
+    repeat
+    poc:=poc+1;
+    pom:=pom+2;
+    citatel:=citatel*x*x;
+    menovatel:=trunc(menovatel*pom*(pom-1));
+    pom_cislo:=citatel/menovatel;
+    if (poc mod 2)=1 then vysledok :=vysledok-pom_cislo
+    else vysledok :=vysledok+pom_cislo;
+    until(pom_cislo<=p);
+    writeln('sinus uhla ',x:5:2,' rad alebo sinus ',x*180/pi:3:0,' stupnov je: ',vysledok:7:6);
+    writeln;writeln;writeln;
+    write('chces pokracovat ? pre koniec stlac n/n');
+    koniec:=readkey;
+    until(koniec='n') or (koniec='N');
+    end.

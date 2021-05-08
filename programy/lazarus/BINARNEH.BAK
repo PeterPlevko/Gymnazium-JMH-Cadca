@@ -1,0 +1,39 @@
+program binary_search;
+uses crt;
+type index=1..100;              {zistit co je index}
+var arr:array[1..100]of index;
+mid,low,high,search:integer;
+i,n:index;
+found:boolean;
+
+begin
+clrscr;
+writeln('Binary search');
+writeln('dlzka retazca');
+readln(n);
+writeln('enter numbrs');
+for i:=1 to n do
+begin readln(arr[i]);
+end;
+writeln('ake cislo chces hladat ?');
+readln(search);
+low:=1;
+high:=n;
+found:=false;
+ repeat
+ mid:=trunc(low+high) div 2; {skusit len trunc n}
+ if (search<arr[mid]) then high:=mid-1;
+
+ if (search>arr[mid]) then low:=mid+1;
+
+ if (search=arr[mid]) then found:=true
+                      else found:=false;
+
+ until ((found=true) or (high<low));
+ if found=true then writeln('element found')
+               else writeln('element not found');
+
+ readkey;
+
+end.
+

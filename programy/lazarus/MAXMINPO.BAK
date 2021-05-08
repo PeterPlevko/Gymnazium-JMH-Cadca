@@ -1,0 +1,88 @@
+{Peter Plevko, Septima A, Sk. rok 2016/17
+ Program na presunutie najmensieho cisla na zacitok pola a najvacsieo na koniec
+ Vstupne podmienky: lubovolny pocet cisel
+ Vystupne podmienky: pole s najmensim cislom na zaciatku a najvacsim na konci}
+program maxmincislo;
+uses crt;
+var pocet:real;
+    i,k,v:integer;
+    anonie:char;
+    t1,t0,t3:boolean;
+    cisla:array [0..100] of real;
+begin
+ repeat
+  repeat
+   clrscr;
+   writeln ('                                     Max,Min');
+   writeln;
+   writeln;
+   write ('Zadaj pocet cisel:');
+   readln (pocet);
+   pocet:=pocet+2;
+  until (pocet>1) and (trunc(pocet)=pocet);
+  for i:=3 to (trunc(pocet)) do begin
+                     clrscr;
+                     writeln ('                                     Max,Min');
+                     writeln;
+                     writeln;
+                     write ('Zadaj ',i-2,'. cislo:');
+                      readln (cisla[i]);
+                    end;
+  clrscr;
+  writeln ('                                     Max,Min');
+  writeln;
+  writeln;
+  write ('Nove usporiadanie cisel (');
+  t0:=true;
+  t1:=true;
+  v:=1;
+  for i:=3 to (trunc(pocet)) do
+                    write ((cisla[i]):2:2,',');
+  writeln (') je:');
+  cisla[0]:=32500;
+  cisla[1]:=-32500;
+  for i:=3 to trunc(pocet) do begin
+                        if cisla[i]<cisla[0] then
+                         begin
+                          cisla[0]:=cisla[i];
+                         end;
+                        if cisla[i]>cisla[1] then
+                         begin
+                          cisla[1]:=cisla[i];
+                         end;
+                       end;
+  for i:=3 to trunc(pocet) do begin
+                    if (cisla[i]=cisla[0]) and (t0)  then begin
+                                                              t0:=false;
+                                                              for k:=i+1 to trunc(pocet) do
+                                                                         cisla[k-1]:=cisla[k];
+                                                          end;
+                              end;
+  for i:=3 to trunc(pocet) do begin
+                    if (cisla[i]=cisla[1]) and (t1) and (i=pocet) then begin
+                                                                  v:=0;
+                                                                       end
+                    else if (cisla[i]=cisla[1]) and (t1) then begin
+                                                              t1:=false;
+                                                              for k:=i+1 to trunc(pocet) do
+                                                                         cisla[k-1]:=cisla[k];
+                                                         end;
+                              end;
+
+  cisla[trunc(pocet-v)]:=cisla[1];
+  cisla[2]:=cisla[0];
+  for i:=2 to trunc(pocet-v) do
+                    write ((cisla[i]):2:2,',');
+  repeat
+  gotoxy (1,20);
+  write ('Ak chces pokracovat napis A ak nie tak napis N: ');
+   anonie:=readkey;
+  until (upcase(anonie) ='N') or (upcase(anonie) ='A');
+ until  upcase(anonie) = 'N';
+end.
+
+
+
+
+
+

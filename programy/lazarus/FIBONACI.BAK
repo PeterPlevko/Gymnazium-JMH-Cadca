@@ -1,0 +1,15 @@
+program fibonaciho_cisla;
+uses crt;
+const max=46;
+var i,n:longint;
+F: array [0..max] of longint;
+begin
+clrscr;
+write('Zadaj kolke cislo z fibonaciho postupnosti chces: ');
+readln(n);
+F[0]:=0;
+F[1]:=1;
+for i:=2 to n do F[i]:=F[i-1] + F[i-2];
+writeln(n,' cislo vo fibonaciho postupnosti je: ',F[n]);
+readln;
+end.
