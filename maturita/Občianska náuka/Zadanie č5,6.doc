@@ -1,0 +1,709 @@
+{\rtf1\adeflang1025\ansi\ansicpg1250\uc1\adeff0\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1051\deflangfe1051\themelang1051\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f34\fbidi \froman\fcharset238\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\f44\fbidi \fswiss\fcharset238\fprq0{\*\panose 00000000000000000000}WIXGAT+MyriadPro-Bold{\*\falt Myriad Pro};}
+{\flomajor\f31500\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbmajor\f31501\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhimajor\f31502\fbidi \froman\fcharset238\fprq2{\*\panose 00000000000000000000}Cambria;}{\fbimajor\f31503\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\flominor\f31504\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbminor\f31505\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fhiminor\f31506\fbidi \fswiss\fcharset238\fprq2{\*\panose 020f0502020204030204}Calibri;}{\fbiminor\f31507\fbidi \froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f426\fbidi \froman\fcharset0\fprq2 Times New Roman;}
+{\f425\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\f427\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f428\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f429\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\f430\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f431\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f432\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f766\fbidi \froman\fcharset0\fprq2 Cambria Math;}
+{\f765\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f767\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f768\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f771\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}
+{\f772\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}{\flomajor\f31510\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fdbmajor\f31520\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31530\fbidi \froman\fcharset0\fprq2 Cambria;}
+{\fhimajor\f31529\fbidi \froman\fcharset204\fprq2 Cambria Cyr;}{\fhimajor\f31531\fbidi \froman\fcharset161\fprq2 Cambria Greek;}{\fhimajor\f31532\fbidi \froman\fcharset162\fprq2 Cambria Tur;}
+{\fhimajor\f31535\fbidi \froman\fcharset186\fprq2 Cambria Baltic;}{\fhimajor\f31536\fbidi \froman\fcharset163\fprq2 Cambria (Vietnamese);}{\fbimajor\f31540\fbidi \froman\fcharset0\fprq2 Times New Roman;}
+{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31550\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fdbminor\f31560\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhiminor\f31570\fbidi \fswiss\fcharset0\fprq2 Calibri;}
+{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31580\fbidi \froman\fcharset0\fprq2 Times New Roman;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue0;\red0\green0\blue0;}{\*\defchp \fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap 
+\ql \li0\ri0\sa200\sl276\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1051\langfe1051\kerning28\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 \snext0 \sqformat \spriority0 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa200\sl276\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang1051\langfe1051\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1051\langfenp1051 \snext11 \ssemihidden \sunhideused 
+Normal Table;}}{\*\listtable{\list\listtemplateid1685720388\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67436559\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 
+\af0 \ltrch\fcs0 \fbias0\hres0\chhres0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436569\'02\'01.;}{\levelnumbers
+\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436571
+\'02\'02.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436559\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67436569\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67436571\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436559\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436569\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2
+\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436571\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid264726534}
+{\list\listtemplateid1390317206\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid67436559\'02\'00.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 
+\fbias0\hres0\chhres0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436569\'02\'01.;}{\levelnumbers\'01;}\rtlch\fcs1 
+\af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436571\'02\'02.;}{\levelnumbers\'01;}
+\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li2160\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436559
+\'02\'03.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\leveltemplateid67436569\'02\'04.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\lvltentative\levelspace0
+\levelindent0{\leveltext\leveltemplateid67436571\'02\'05.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\leveltemplateid67436559\'02\'06.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436569\'02\'07.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\leveltemplateid67436571\'02\'08.;}{\levelnumbers\'01;}\rtlch\fcs1 \af0 \ltrch\fcs0 \hres0\chhres0 \fi-180\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1959607716}}
+{\*\listoverridetable{\listoverride\listid264726534\listoverridecount0\ls1}{\listoverride\listid1959607716\listoverridecount0\ls2}}{\*\rsidtbl \rsid1343237\rsid3494348\rsid8725503\rsid9196512\rsid13638643\rsid14949277\rsid16338588}{\mmathPr\mmathFont34
+\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info{\operator  }{\creatim\yr2014\mo4\dy27\hr17\min24}{\revtim\yr2019\mo1\dy15\hr19\min16}{\printim\yr2019\mo1\dy15\hr19\min11}{\version4}
+{\edmins62}{\nofpages8}{\nofwords2920}{\nofchars16647}{\nofcharsws19528}{\vern95}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/2003/wordml}}\paperw11899\paperh16837\margl1797\margr1797\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\hyphhotz425\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120
+\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot8725503 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0{\*\docvar {ColorPos}{-1}}{\*\docvar {ColorSet}{-1}}{\*\docvar {StylePos}{-1}}{\*\docvar {StyleSet}{-1}}{\*\ftnsep 
+\ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 
+\af0 \ltrch\fcs0 \insrsid13638643 \chftnsep 
+\par }}{\*\ftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid13638643 \chftnsepc 
+\par }}{\*\aftnsep \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 {
+\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid13638643 \chftnsep 
+\par }}{\*\aftnsepc \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 
+{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid13638643 \chftnsepc 
+\par }}\ltrpar \sectd \ltrsect\pgnrestart\linex0\headery708\footery864\colsx708\sectdefaultcl\sftnbj {\headerr \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 
+\af0\afs20\alang1025 \ltrch\fcs0 \fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 \ltrch\fcs0 \kerning0\insrsid8725503 
+\par }}{\footerr \ltrpar \pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\tqc\tx4320\tqr\tx8640\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 \ltrch\fcs0 
+\fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0 \ltrch\fcs0 \kerning0\insrsid8725503 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs20\alang1025 
+\ltrch\fcs0 \fs20\lang1051\langfe1051\kerning28\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1051\langfenp1051 {\rtlch\fcs1 \af0\afs32 \ltrch\fcs0 \b\fs32\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Zadanie \'e8\loch\f0 .5 
+
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid14949277 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\i\fs24\insrsid8725503\charrsid14949277 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 1 Vysvetlite rozdiely uveden\'fd\loch\f0 \hich\f0 ch pr\'ed\loch\f0 \hich\f0 stupov v pozn\'e1\loch\f0 \hich\f0 van\'ed\hich\af0\dbch\af31505\loch\f0 \hich\f0  - empirizmus a racionalizmus, uve\'ef\loch\f0 \hich\f0 
+te s\'fa\loch\f0 \hich\f0 vislos\'9d\loch\f0 \hich\f0  medzi nimi a vymenujte predstavite\'be\loch\f0 \hich\f0 ov oboch poz\'ed\loch\f0 \hich\f0 ci\'ed\loch\f0 \hich\f0 , charakterizujte 2 r\'f4\loch\f0 \hich\f0 zne met\'f3\loch\f0 \hich\f0 dy pozn\'e1
+\loch\f0 vania.
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid14949277 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Tieto dva pr\'ed\loch\f0 \hich\f0 stupy poznania s\'fa
+\loch\f0 \hich\f0  typick\'e9\loch\f0 \hich\f0  pre klasick\'fa\loch\f0 \hich\f0  novovek\'fa\loch\f0  filozofiu. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Empirizmus}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  preferuje sk\'fa\loch\f0 \hich\f0 senostn\'e9\loch\f0 \hich\f0  v\'fd\loch\f0 chod\hich\af0\dbch\af31505\loch\f0 \hich\f0 isk\'e1\loch\f0 \hich\f0 
+ poznania, p\'f4\loch\f0 \hich\f0 vod teda nach\'e1\loch\f0 \hich\f0 dza v zmyslov\'fd\loch\f0 ch pocitoch a vnemoch. Na druhej strane }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 racionalizmu}
+{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 s nach\'e1\loch\f0 \hich\f0 dza jedin\'e9\loch\f0 \hich\f0  spo\'be\loch\f0 \hich\f0 ahliv\'e9\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 
+chodisko poznania v istote rozumu. Spor empirizmu a racionalizmu tvor\'ed\loch\f0 \hich\f0  hlavn\'fa\loch\f0 \hich\f0  os v\'fd\loch\f0 vinu  novovekej filozofie. 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Predstavitelia e\hich\af0\dbch\af31505\loch\f0 mpirizmu:}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0  Francis Bacon, John Locke, David Hume
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Predstavitelia racionalizmu:}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  Ren
+\'e9\loch\f0  Descartes, Benedictus Spinoza, Gottfried Wilhelm Leibniz
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 2 r\'f4\loch\f0 \hich\f0 zne met\'f3\loch\f0 \hich\f0 dy pod\'be\loch\f0 a Bacona a Descartesa 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Francis Bacon}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  bol typick\'fd
+\loch\f0 \hich\f0 m predstavite\'be\loch\f0 \hich\f0 om empirizmu. Z\'e1\loch\f0 kladom poznania po\hich\af0\dbch\af31505\loch\f0 \hich\f0 d\'be\loch\f0 \hich\f0 a neho s\'fa\loch\f0 \hich\f0  sk\'fa\loch\f0 \hich\f0 senosti ako jedin\'e9\loch\f0 
+\hich\f0  spo\'be\loch\f0 \hich\f0 ahliv\'e9\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 chodisko poznania. Baconova met\'f3\loch\f0 \hich\f0 da spo\'e8\'ed\loch\f0 \hich\f0 va v 2 krokoch : v prvom, negat\'ed\loch\f0 \hich\f0 
+vnom  Bacon kritizuje tzv. Idoly, v druhom pozit\'ed\loch\f0 \hich\f0 vno pou\'9e\'ed\loch\f0 \hich\f0 va vlastn\'fa\loch\f0 \hich\f0  indukt\'ed\loch\f0 \hich\f0 vnu met\'f3\loch\f0 \hich\f0 du. Idolmi Bacon rozumie prek\'e1\'9e\loch\f0 
+ky a predsudky , ktor\loch\af0\dbch\af31505\hich\f0 \'e9\hich\af0\dbch\af31505\loch\f0 \hich\f0  n\'e1\loch\f0 \hich\f0 m znemo\'9e\'f2\loch\f0 \hich\f0 uj\'fa\loch\f0 \hich\f0  objekt\'ed\loch\f0 \hich\f0 vne poznanie. Rozozn\'e1\loch\f0 \hich\f0 
+va 4 idoly : Idol kme\'f2\loch\f0 \hich\f0 a ,idol jaskyne, idol trhu a idol divadla. Zd\'f4\loch\f0 \hich\f0 vod\'f2\loch\f0 \hich\f0 uje potreby indukt\'ed\loch\f0 \hich\f0 vnej met\'f3\loch\f0 \hich\f0 dy ako postupu od sk\'fa\loch\f0 \hich\f0 
+senosti k zov\'9a\loch\f0 \hich\f0 eobecneniu. I ke\'ef\loch\f0 \hich\f0  princ\'ed\loch\f0 \hich\f0 p indukcie bol zn\'e1\loch\f0 \hich\f0 my u\'9e\loch\f0 \hich\f0  d\'e1\loch\f0 \hich\f0 vno pred t\'fd\loch\f0 m Bacon sa ho s
+\hich\af0\dbch\af31505\loch\f0 n\hich\af0\dbch\af31505\loch\f0 \hich\f0 a\'9e\loch\f0 \hich\f0 il rozpracova\'9d\loch\f0 \hich\f0 . Pozorovan\'ed\loch\f0 \hich\f0 m a experimentami sa sna\'9e\loch\f0 \hich\f0 il pr\'ed\loch\f0 \hich\f0 s\'9d\loch\f0 
+\hich\f0  k zov\'9a\loch\f0 \hich\f0 eobecneniu, z\'e1\loch\f0 \hich\f0 veru. Spr\'e1\loch\f0 \hich\f0 vne ukazuje, \'9e\loch\f0 \hich\f0 e jednoduch\'e9\loch\f0 \hich\f0  zhroma\'9e\'ef\loch\f0 \hich\f0 ovanie faktov e\'9a\loch\f0 \hich\f0 
+te nie je indukciou, mus\'ed\loch\f0 \hich\f0   sa robi\'9d\loch\f0 \hich\f0  metodicky, opiera\'9d\loch\f0 \hich\f0  sa o ur\'e8\loch\f0 \hich\f0 it\'e9\loch\f0 \hich\f0  predpoklady a smerova\'9d\loch\f0 \hich\f0  k odhaleniu  z\'e1\loch\f0 kona, j
+\hich\af0\dbch\af31505\loch\f0 a\hich\af0\dbch\af31505\loch\f0 vu.
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Ren\'e9\loch\f0  Descartes}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0  je zakladate\'be\loch\f0 \hich\f0 om racionalizmu. Istotu poznania nezakladal na zmyslovej sk\'fa\loch\f0 \hich\f0 senosti, ale na nepochybnosti  jeho rozumov\'fd\loch\f0 \hich\f0 ch v\'fd\loch\f0 \hich\f0 chod\'ed\loch\f0 \hich\f0 sk. Uzn\'e1
+\loch\f0 \hich\f0 val spo\'be\loch\f0 \hich\f0 ahlivos\'9d\loch\f0 \hich\f0  matematiky a jej v\'fd\loch\f0 \hich\f0 znam pre vznikaj\'fa\loch\f0 \hich\f0 cu novovek\'fa\loch\f0 \hich\f0  filozofiu. T\'fd\loch\f0 \hich\f0 m sa v\'fd\loch\f0 \hich\f0 
+razne odli\'9a\loch\f0 uje od\hich\af0\dbch\af31505\loch\f0 \hich\f0  Baconovho ch\'e1\loch\f0 \hich\f0 pania vedy. Filozofick\'fd\loch\f0 \hich\f0  a vedeck\'fd\loch\f0 \hich\f0  z\'e1\loch\f0 \hich\f0 ujem Descarta sa s\'fa\loch\f0 \hich\f0 stredil do 
+\'fa\loch\f0 \hich\f0 silia vypracova\'9d\loch\f0 \hich\f0  nov\'fa\loch\f0 \hich\f0  dedukt\'ed\loch\f0 \hich\f0 vnu met\'f3\loch\f0 \hich\f0 du vedeck\'e9\loch\f0 \hich\f0 ho poznania.Vzorom aplik\'e1\loch\f0 \hich\f0 cie tejto met\'f3\loch\f0 \hich\f0 
+dy je matematika. Z\'e1\loch\f0 \hich\f0 sady svojej metodol\'f3\loch\f0 \hich\f0 gie podal v diele Rozprava o met\'f3\loch\f0 de. Zhrnul ich \hich\af0\dbch\af31505\loch\f0 d\hich\af0\dbch\af31505\loch\f0 \hich\f0 o \'9a\loch\f0 \hich\f0 
+tyroch pravidiel, z torch najv\'fd\loch\f0 \hich\f0 znamnej\'9a\loch\f0 \hich\f0 ie je prv\'e9\loch\f0 \hich\f0  : Za pravdiv\'e9\loch\f0 \hich\f0  uzn\'e1\loch\f0 \hich\f0 m iba tak\'e9\loch\f0 \hich\f0  tvrdenie, ktor\'e9\loch\f0 \hich\f0  je m\'f4
+\loch\f0 \hich\f0 jmu rozumu jasn\'e9\loch\f0 \hich\f0  a zrete\'be\loch\f0 \hich\f0 n\'e9\loch\f0 \hich\f0 . Rozum povy\'9a\loch\f0 \hich\f0 uje na najvy\'9a\'9a\loch\f0 \hich\f0 iu \'fa\loch\f0 \hich\f0 rove\'f2\loch\f0 \hich\f0 . Druh\'e9\loch\f0 
+\hich\f0  pravidlo \'9e\loch\f0 \hich\f0 iada roz\'e8\loch\f0 \hich\f0 leni\'9d\loch\f0 \hich\f0  ka\'9e\loch\f0 \hich\f0 d\'fd\loch\f0 \hich\f0  sk\'fa\loch\f0 \hich\f0 man\'fd\loch\f0 \hich\f0  probl\'e9\loch\f0 \hich\f0 m na jednoduch\'9a\loch\f0 
+\hich\f0 ie \'e8\loch\f0 asti. Tretie - po\hich\af0\dbch\af31505\loch\f0 s\hich\af0\dbch\af31505\loch\f0 \hich\f0 tupova\'9d\loch\f0 \hich\f0  od jednoduch\'9a\'ed\loch\f0 \hich\f0 ch javov k zlo\'9e\loch\f0 \hich\f0 itej\'9a\'ed\loch\f0 \hich\f0 
+m a napokon \'9a\loch\f0 \hich\f0 tvrt\'e9\loch\f0 \hich\f0  -  robi\'9d\loch\f0 \hich\f0  si presn\'fd\loch\f0 \hich\f0  preh\'be\loch\f0 \hich\f0 ad postupu. Najv\'fd\loch\f0 \hich\f0 znamnej\'9a\'ed\loch\f0 \hich\f0 m v\'fd\loch\f0 \hich\f0 
+sledkom tejto met\'f3\loch\f0 \hich\f0 dy bola formul\'e1\loch\f0 \hich\f0 cia v\'fd\loch\f0 \hich\f0 chodiskovej t\'e9\loch\f0 \hich\f0 zy jeho filozofie: Mysl\'ed\loch\f0 \hich\f0 m, teda som - Cogito ergo sum . Dospel k nej aplik\'e1\loch\f0 \hich\f0 
+ciou prv\'e9\loch\f0 ho\hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0 \hich\f0 pravidla met\'f3\loch\f0 \hich\f0 dy. Pou\'9e\loch\f0 \hich\f0 il na to postup, ktor\'fd\loch\f0 \hich\f0  s\'e1\loch\f0 \hich\f0 m ozna\'e8\loch\f0 \hich\f0 
+il ako metodick\'fa\loch\f0 \hich\f0  skepsu. Postupne vylu\'e8\loch\f0 \hich\f0 oval tvrdenia o ktor\'fd\loch\f0 \hich\f0  mo\'9e\loch\f0 \hich\f0 no pochybova\'9d.
+\par 
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid14949277 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid14949277 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\i\fs24\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0  \'e8\loch\f0 \hich\f0 .2 Porovnajte jednotliv\'e9\loch\f0 \hich\f0  filozofick\'e9\loch\f0 \hich\f0  n\'e1\loch\f0 \hich\f0 zory na Boha (Aristoteles, Akvinsk\'fd
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 , Descartes, G.W.Leibniz, Bruno. Ur\'e8\loch\f0 \hich\f0 ite, od koho je uk\'e1\'9e\loch\f0 ka.
+\par 
+\par 
+\par \loch\af0\dbch\af31505\hich\f0 \'93\loch\f0 \hich\f0 Kam sa podel Boh? \'93\loch\f0 \hich\f0 - vykr\'ed\loch\f0 \hich\f0 kol .\'94\loch\f0 \hich\f0 Ja v\'e1\loch\f0 \hich\f0 m to poviem! - vy a ja ! My v\'9a\loch\f0 \hich\f0 etci sme jeho vrahmi! \'93
+\loch\f0  
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0                                                    In: FURSTOV\'c1\loch\f0 , M. - TRINKS, J.:Filozofia. Bratisla\hich\af0\dbch\af31505\loch\f0 va, 1996, s. 299.
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Autorom tejto uk\'e1\'9e\loch\f0 ky }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 je Friedrich Nietzsche}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 . Nietzsche neh\'be\loch\f0 \hich\f0 ad\'e1\loch\f0 \hich\f0  racion\'e1\loch\f0 \hich\f0 lne d\'f4\loch\f0 \hich\f0 kazy nejestvovania Boha, hl\'e1\loch\f0 \hich\f0 sa smr\'9d
+\loch\f0 \hich\f0  kres\'9d\loch\f0 \hich\f0 ansk\'e9\loch\f0 \hich\f0 ho Boha. Vlastne nehovor\'ed\loch\f0 \hich\f0  o Bohu, ale o \'e8\loch\f0 \hich\f0 loveku, ktor\'fd\loch\f0 \hich\f0  str\'e1\loch\f0 \hich\f0 ca vieru v prevahu Boha, a t\'fd\loch\f0 
+\hich\f0 m v modernom svete str\'e1\loch\f0 ca o\hich\af0\dbch\af31505\loch\f0 \hich\f0 poru najvy\'9a\'9a\'ed\loch\f0 \hich\f0 ch hodn\'f4\loch\f0 \hich\f0 t a ist\'f4\loch\f0 \hich\f0 t. Je odk\'e1\loch\f0 \hich\f0 zan\'fd\loch\f0 \hich\f0  s\'e1
+\loch\f0 \hich\f0 m na seba. Nie ka\'9e\loch\f0 \hich\f0 d\'fd\loch\f0 \hich\f0  je schopn\'fd\loch\f0 \hich\f0  z\'e1\loch\f0 \hich\f0 sadne zmeni\'9d\loch\f0 \hich\f0  pon\'ed\loch\f0 \hich\f0 manie sam\'e9\loch\f0 \hich\f0 ho seba a sveta, hoci pr\'e1
+\loch\f0 \hich\f0 ve to je pod\'be\loch\f0 \hich\f0 a Nietzscheho cesta od \'e8\loch\f0 \hich\f0 loveka k nad\'e8\loch\f0 loveku.
+\par 
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 N\'e1\loch\f0 zory na Boha 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Aristoteles }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - hovor\'ed\loch\f0 
+\hich\f0  o Bohu ako o prvom h\'fd\loch\f0 bat\hich\af0\dbch\af31505\loch\f0 \hich\f0 e\'be\loch\f0 \hich\f0 ovi . Je po\'e8\loch\f0 \hich\f0 iatkom v\'9a\loch\f0 \hich\f0 etk\'e9\loch\f0 \hich\f0 ho pohybu , v\'ef\loch\f0 \hich\f0 aka nemu sa mo\'9e
+\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0  v procese vznikania stane skuto\'e8\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0 ou. Aristoteles si kladie ot\'e1\loch\f0 \hich\f0 zku, \'e8\loch\f0 \hich\f0 o je prvou pr\'ed\'e8\loch\f0 \hich\f0 
+inou pohybov vo svete a nach\'e1\loch\f0 \hich\f0 dza ju v 1 h\'fd\loch\f0 \hich\f0 bate\'be\loch\f0 \hich\f0 ovi. Hoci hovor\'ed\loch\f0 \hich\f0  o Bohu , nemo\'9e\loch\f0 \hich\f0 no to stoto\'9e\'f2\loch\f0 \hich\f0 ova\'9d\loch\f0 \hich\f0  s kres
+\'9d\loch\f0 \hich\f0 ansk\'fd\hich\af0\dbch\af31505\loch\f0 m\hich\af0\dbch\af31505\loch\f0 \hich\f0  ch\'e1\loch\f0 \hich\f0 pan\'ed\loch\f0 \hich\f0 m stvorenia, preto\'9e\loch\f0 \hich\f0 e prv\'fd\loch\f0 \hich\f0  h\'fd\loch\f0 \hich\f0 bate\'be
+\loch\f0  svet}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  nestvoril}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 . Pod\'be
+\loch\f0 \hich\f0 a Aristotela je ve\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0 . Je to sk\'f4\loch\f0 \hich\f0 r najvy\'9a\'9a\'ed\loch\f0 \hich\f0  princ\'ed\loch\f0 \hich\f0 p jednoty a rozumnosti sveta a prame\'f2\loch\f0 \hich\f0  v\'9a\loch\f0 
+\hich\f0 etk\'fd\loch\f0 ch pohybov.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Giordano Bruno}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \endash }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  na\'e8\loch\f0 \hich\f0 rt\'e1}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 val }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  nov\'e9\loch\f0 \hich\f0  ch\'e1\loch\f0 
+panie panteizmu, v ktorom sa Boh }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 rozpl\'fd\loch\f0 va }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 v pr\'ed\loch\f0 rode.\hich\af0\dbch\af31505\loch\f0 \hich\f0  Pod\'be\loch\f0 \hich\f0 a neho d\'f4\loch\f0 \hich\f0 stojnos\'9d\loch\f0 \hich\f0  \'e8\loch\f0 \hich\f0 loveku nie je dan\'e1\loch\f0  , ale }{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 z\'ed\loch\f0 skava }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 ju t\'fd
+\loch\f0 \hich\f0 m, \'9e\loch\f0 \hich\f0 e je tvorivou bytos\'9d\loch\f0 \hich\f0 ou. \'c8\loch\f0 \hich\f0 lovek ako tvorca sa pribli\'9e\loch\f0 \hich\f0 uje stvorite\'be\loch\f0 ovi}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 , takmer dosahuje t\'fa\loch\f0 \hich\f0  ist\'fa\loch\f0 \hich\f0  \'fa\loch\f0 \hich\f0 rove\'f2}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 . 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Ren\'e9\loch\f0  Descartes}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0  - pod\'be\loch\f0 \hich\f0 a neho je Boh najdokonalej\'9a\loch\f0 ou  a}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  nekone\'e8\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+nou formou ako univerz\'e1\loch\f0 lne}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 , ni\'e8\'ed\loch\f0 \hich\f0 m neohrani\'e8\loch\f0 \hich\f0 en\'e9\loch\f0 \hich\f0  bytie. Neby\'9d
+\loch\f0 \hich\f0  Boha nemali by sme ani z\'e1\loch\f0 \hich\f0 ruku existencie toho druh\'e9\loch\f0 \hich\f0  \'e8\loch\f0 \hich\f0 i\'9e\loch\f0 \hich\f0 e materi\'e1\loch\f0 \hich\f0 lneho sveta. Boh vo svojej dokonalosti n\'e1\loch\f0 \hich\f0 s nem
+\'f4\'9e\loch\f0 \hich\f0 e klama\'9d\loch\f0 \hich\f0 , a preto ak sa stret\'e1\loch\f0 \hich\f0 vame s hmotn\'fd\loch\f0 \hich\f0 m svetom , nie je to il\'fa\loch\f0 \hich\f0 zia. Bohom zd\'f4\loch\f0 vod\loch\af0\dbch\af31505\hich\f0 \'f2\loch\f0 
+\hich\f0 uje existenciu materi\'e1\loch\f0 l}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 nej}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  substencie. Descartes v\'9a\loch\f0 \hich\f0 ak ideu Boha nepou\'9e\'ed\loch\f0 \hich\f0 va v teologickom ale prim\'e1\loch\f0 \hich\f0 rne filozofickom zmysle. Preto ho teol\'f3\loch\f0 govia kritizovali.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 G.W.Leibniz}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - pod\'be\loch\f0 
+\hich\f0 a neho z\'e1\loch\f0 \hich\f0 klad v\'9a\loch\f0 \hich\f0 etk\'e9\loch\f0 \hich\f0 ho tvoria mon\'e1\loch\f0 \hich\f0 dy = nekone\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0  po\'e8\loch\f0 et jednotiek bytia. Hierarchi
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 a mon\'e1\loch\f0 \hich\f0 d kon\'e8\'ed\loch\f0 \hich\f0  absol\'fa\loch\f0 \hich\f0 tne jasnou mon\'e1\loch\f0 \hich\f0 dou tzv. Mon\'e1\loch\f0 \hich\f0 da mon\'e1\loch\f0 d= Boh.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Tom\'e1\'9a\loch\f0 \hich\f0  Akvinsk\'fd}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  - n\'e1\loch\f0 \hich\f0 zor, \'9e\loch\f0 \hich\f0 e v\'9a\loch\f0 \hich\f0 etky  ostatn\'e9\loch\f0 \hich\f0  vedy mo\'9e\loch\f0 \hich\f0 no nazva\'9d\loch\f0 \hich\f0  sl\'fa\'9e\loch\f0 \hich\f0 kami teol\'f3
+\loch\f0 \hich\f0 gie. Uv\'e1\loch\f0 \hich\f0 dza 5 odkazov na Bo\'9e\loch\f0 \hich\f0 iu existenciu - nie v\'9a\loch\f0 \hich\f0 ak d\'f4\loch\f0 \hich\f0 kazov na existenciu Boha. Vych\'e1\loch\f0 \hich\f0 dza sk\'f4\loch\f0 \hich\f0 r zo sk\'fa
+\loch\f0 \hich\f0 senost\'ed\loch\f0 \hich\f0 . V\'9a\loch\f0 etky \hich\af0\dbch\af31505\loch\f0 \hich\f0 odkazy na existenciu Boha sa zakladaj\'fa\loch\f0 \hich\f0  na tom, \'9e\loch\f0 \hich\f0 e pri spatnej  argument\'e1\loch\f0 \hich\f0 cii nemo\'9e
+\loch\f0 \hich\f0 no postupova\'9d\loch\f0 \hich\f0  donekone\'e8\loch\f0 \hich\f0 na. Na vrchole v\'9a\loch\f0 \hich\f0 etk\'e9\loch\f0 \hich\f0 ho je pod\'be\loch\f0 \hich\f0 a neho Boh - zdroj v\'9a\loch\f0 \hich\f0 etkej existencie, prame\'f2\loch\f0 
+\hich\f0  v\'9a\loch\f0 \hich\f0 etk\'e9\loch\f0 \hich\f0 ho dobra. Boh stvoril dokonal\'fd\loch\f0 \hich\f0  svet, zlo nemo\'9e\loch\f0 \hich\f0 no poch\'e1\loch\f0 \hich\f0 dza\'9d\loch\f0  od neho. \hich\af0\dbch\af31505\loch\f0 Z
+\hich\af0\dbch\af31505\loch\f0 lo je vlastne  len nedostatok dobra.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid14949277 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid14949277 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0  \'e8\loch\f0 .3  Prezentujte v}{\rtlch\fcs1 \ab\af44 \ltrch\fcs0 \b\i\cf1\insrsid9196512\charrsid14949277 \loch\af0\dbch\af31505\hich\f0 \'fd}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \b\i\fs24\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 vo}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 j}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\i\fs24\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0  ekonomick\'e9\loch\f0 \hich\f0 ho myslenia. Aktualizujte na konkr\'e9\loch\f0 \hich\f0 tnych pr\'ed\loch\f0 \hich\f0 kladoch. Pracujte s uvedenou uk\'e1\'9e\loch\f0 k}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 ou.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid14949277 
+\par }\pard \ltrpar\ql \li360\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin360\itap0\pararsid9196512 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid9196512\charrsid9196512 
+\par }\pard \ltrpar\qj \fi-720\li720\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin720\itap0\pararsid9196512 {\rtlch\fcs1 \ab\af44\afs24 \ltrch\fcs0 \i\fs24\cf1\insrsid9196512\charrsid9196512 \tab \loch\af0\dbch\af31505\hich\f0 \'84\loch\f0 \hich\f0 
+Potrava a n\'e1\loch\f0 \hich\f0 poje sa na na\'9a\loch\f0 \hich\f0 om obed\'f2\loch\f0 \hich\f0 aj\'9a\loch\f0 \hich\f0 om stole nach\'e1\loch\f0 \hich\f0 dzaj\'fa\loch\f0 \hich\f0  nie v\'ef\loch\f0 \hich\f0 aka dobro\'e8\hich\af0\dbch\af31505\loch\f0 
+\hich\f0 innosti m\'e4\loch\f0 \hich\f0 siara, pivovarn\'ed\loch\f0 \hich\f0 ka, \'e8\loch\f0 \hich\f0 i pek\'e1\loch\f0 \hich\f0 ra, ale v d\'f4\loch\f0 \hich\f0 sledku toho, \'9e\loch\f0 \hich\f0 e t\'ed\loch\f0 \hich\f0 to sleduj\'fa\loch\f0 \hich\f0 
+ svoj vlastn\'fd\loch\f0 \hich\f0  z\'e1\loch\f0 \hich\f0 ujem. Ka\'9e\loch\f0 \hich\f0 d\'fd\loch\f0 \hich\f0  jednotlivec sa neust\'e1\loch\f0 \hich\f0 le sna\'9e\'ed\loch\f0 \hich\f0  objavova\'9d\loch\f0 \hich\f0  tie najv\'fd\loch\f0 \hich\f0 hodnej
+\'9a\loch\f0 \hich\f0 ie sp\'f4\loch\f0 \hich\f0 soby pou\'9e\loch\f0 \hich\f0 itia zdrojov, ktor\'e9\loch\f0 \hich\f0  m\'e1\loch\f0 \hich\f0  k dispoz\'ed\loch\f0 \hich\f0 cii. H\'be\loch\f0 \hich\f0 adan\'ed\loch\f0 \hich\f0 m t\'fd\loch\f0 \hich\f0 
+chto sp\'f4\loch\f0 \hich\f0 sobov s\'ed\loch\f0 ce sleduje len \hich\af0\dbch\af31505\loch\f0 s\hich\af0\dbch\af31505\loch\f0 \hich\f0 voj vlastn\'fd\loch\f0 \hich\f0  prospech, ale v tomto, ako aj v mnoh\'fd\loch\f0 \hich\f0 ch in\'fd\loch\f0 \hich\f0 
+ch pr\'ed\loch\f0 \hich\f0 padoch, ho nevidite\'be\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0  ruka vedie k podpore aj t\'fd\loch\f0 \hich\f0 ch cie\'be\loch\f0 \hich\f0 ov, ktor\'e9\loch\f0 \hich\f0  neboli s\'fa\'e8\loch\f0 \hich\f0 as\'9d\loch\f0 
+\hich\f0 ou jeho z\'e1\loch\f0 \hich\f0 meru.\'93}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid9196512\charrsid9196512 
+\par 
+\par }\pard \ltrpar\qr \fi-720\li720\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin720\itap0\pararsid9196512 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid9196512\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+A. Smith : Pojednanie o podstate a p\'f4\loch\f0 \hich\f0 vode bohatstva n\'e1\loch\f0 rodov. Praha. 2001, s. 386.
+\par }\pard \ltrpar\ql \li360\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin360\itap0\pararsid9196512 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid9196512\charrsid9196512 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Ekonomick\'e9\loch\f0  m\hich\af0\dbch\af31505\loch\f0 \hich\f0 yslenie sprev\'e1\loch\f0 \hich\f0 dza \'be\loch\f0 \hich\f0 udsk\'fa\loch\f0 \hich\f0  spolo\'e8\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0  od po\'e8
+\loch\f0 \hich\f0 iatku civiliz\'e1\loch\f0 \hich\f0 cie. Ak\'e9\loch\f0 \hich\f0  star\'e9\loch\f0 \hich\f0  je \'be\loch\f0 uds}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 tvo}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  samo, tak\'e9\loch\f0 \hich\f0  star\'e9\loch\f0 \hich\f0  s\'fa\loch\f0 \hich\f0  aj potreby \'be\loch\f0 \hich\f0 ud\'ed\loch\f0 \hich\f0  a hospod\'e1
+\loch\f0 \hich\f0 rska \'e8\loch\f0 \hich\f0 innos\'9d\loch\f0 \hich\f0  zameran\'e1\loch\f0  na ich uspokojovanie.
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Av\'9a\loch\f0 \hich\f0 ak ekon\'f3\loch\f0 \hich\f0 mia sa stala samostatnou vednou discipl\'ed\loch\f0 \hich\f0 nou a\'9e\loch\f0 \hich\f0  v 18. Storo\'e8\'ed\loch\f0 . Odvtedy sa }{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 e\hich\af0\dbch\af31505\loch\f0 \hich\f0 konomick\'e9\loch\f0  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0 myslenie rozv\'ed\loch\f0 \hich\f0 ja ve\'be\loch\f0 \hich\f0 kou r\'fd\loch\f0 \hich\f0 chlos\'9d\loch\f0 ou . 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Predhist\'f3\loch\f0 \hich\f0 riu ekon\'f3\loch\f0 mie ako vtedy tvoria }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 ekonomick\'e9\loch\f0  }{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0 zory starovek\'fd\loch\f0 \hich\f0 ch myslite\'be\loch\f0 ov }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 antick\'e9\loch\f0 ho }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Gr\'e9\loch\f0 cka}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 , ak\'fd\loch\f0 \hich\f0 mi boli Xenof\'f3\loch\f0 \hich\f0 n, Plat\'f3\loch\f0 \hich\f0 n, \'e8\loch\f0 \hich\f0 i Aristoteles a R\'ed\loch\f0 \hich\f0 
+ma /Cicero, Seneca/. Xenof\'f3\loch\f0 \hich\f0 n vo svojom spise s n\'e1\loch\f0 zvom Oikonomik\hich\af0\dbch\af31505\loch\f0 \hich\f0 us /oikos=dom, dom\'e1\loch\f0 \hich\f0 ce hospod\'e1\loch\f0 \hich\f0 rstvo, nomos=pravidlo/ rozoberal princ\'ed
+\loch\f0 \hich\f0 py rozumn\'e9\loch\f0 \hich\f0 ho hospod\'e1\loch\f0 renia }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 do}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 m}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'e1\loch\f0 cnosti }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 a zam\'fd\'9a\'be\loch\f0 \hich\f0 al sa nad v\'fd\loch\f0 \hich\f0 znamom po\'be\loch\f0 \hich\f0 nohospod\'e1\loch\f0 \hich\f0 rstva, ktor\'e9\loch\f0 \hich\f0  je pre \'be\loch\f0 \hich\f0 ud\'ed\loch\f0 
+\hich\f0  zdrojom ob\'9e\loch\f0 ivy . }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Plat\'f3\loch\f0 n}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  vyzdvihoval v\'fd\loch\f0 \hich\f0 znam spolo\'e8\loch\f0 \hich\f0 n\'e9\loch\f0 \hich\f0 ho - verejn\'e9\loch\f0 \hich\f0 ho vlastn\'ed\loch\f0 \hich\f0 ctva a de\'be\loch\f0 by p\hich\af0\dbch\af31505\loch\f0 
+\hich\f0 r\'e1\loch\f0 ce. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Aristoteles}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0  zasa veril, \'9e\loch\f0 \hich\f0 e ve\'be\loch\f0 \hich\f0 k\'fd\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 znam pre spolo\'e8\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0  m\'e1\loch\f0 \hich\f0  s\'fa\loch\f0 \hich\f0 kromn\'e9\loch\f0 \hich\f0 
+ vlastn\'ed\loch\f0 \hich\f0 ctvo, no z\'e1\loch\f0 \hich\f0 rove\'f2\loch\f0 \hich\f0  za ods\'fa\loch\f0 deniaho}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 dn\'fa\loch\f0 \hich\f0 
+ pova\'9e\loch\f0 \hich\f0 oval snahu dosahova\'9d\loch\f0  ek}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 onomick\'fd\loch\f0  zisk. 
+\par \hich\af0\dbch\af31505\loch\f0 Na }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 my\'9a\loch\f0 lienky }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 filozofov }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 starovek\'e9\loch\f0 \hich\f0 ho Gr\'e9\loch\f0 \hich\f0 cka i R\'ed\loch\f0 ma}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  v oblasti ekonomick\'e9\loch\f0 ho myslenia nadviazalo v}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0  str\hich\af0\dbch\af31505\loch\f0 \hich\f0 edoveku aj u\'e8\loch\f0 enie scholastikov}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0   . Rozv\'ed\loch\f0 
+\hich\f0 jalo sa v obdob\'ed\loch\f0 \hich\f0  od 13. do 16. storo\'e8\loch\f0 ia. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Scholastici}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  sa sna\'9e\loch\f0 \hich\f0 ili aplikova\'9d\loch\f0 \hich\f0  n\'e1\loch\f0 \hich\f0 bo\'9e\loch\f0 \hich\f0 ensk\'e9\loch\f0 \hich\f0  princ\'ed\loch\f0 \hich\f0 py na svetsk
+\'fd\loch\f0 \hich\f0  \'9e\loch\f0 \hich\f0 ivot a tak vytvor\'9d\loch\f0 \hich\f0  pravidl\'e1\loch\f0 \hich\f0  hospod\'e1\loch\f0 \hich\f0 rskej \'e8\loch\f0 innos}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 ti}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  v s\'fa\loch\f0 \hich\f0 lade s cirkevn\'fd\loch\f0 \hich\f0 m u\'e8\loch\f0 \hich\f0 en\'ed\loch\f0 
+\hich\f0 m. Najv\'fd\loch\f0 \hich\f0 znamnej\'9a\'ed\loch\f0 \hich\f0 m predstavite\'be\loch\f0 om s\hich\af0\dbch\af31505\loch\f0 cholastiky bol }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+taliansky }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 mn\'ed\loch\f0 \hich\f0 ch Tom\'e1\'9a\loch\f0 \hich\f0  Akvinsk\'fd\loch\f0 \hich\f0 . Vo svojom diele nadviazal na my\'9a
+\loch\f0 lie}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 nky }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  Aristotela o v\'fd
+\loch\f0 \hich\f0 zname s\'fa\loch\f0 \hich\f0 kromn\'e9\loch\f0 \hich\f0 ho vlastn\'ed\loch\f0 \hich\f0 ctva a \'fa\'9e\loch\f0 \hich\f0 ere. Zam\'fd\'9a\'be\loch\f0 \hich\f0 al sa nad ur\'e8\loch\f0 \hich\f0 en\'ed\loch\f0 \hich\f0 m spravodliv\'fd
+\loch\f0 \hich\f0 ch ciest, ktor\'e9\loch\f0 \hich\f0  by boli v s\'fa\loch\f0 \hich\f0 lade s u\'e8\loch\f0 \hich\f0 en\'ed\loch\f0 \hich\f0 m cirkvi. Nevysvet\'be\loch\f0 \hich\f0 oval ekonomic\'fa\loch\f0  podstat\hich\af0\dbch\af31505\loch\f0 
+\hich\f0 u tvorby cien, zameriaval sa len na ich mor\'e1\loch\f0 \hich\f0 lnu str\'e1\loch\f0 nku.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Zakladate\'be\loch\f0 \hich\f0  ekon\'f3\loch\f0 mie}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  Adam Smith a David Ricardo- klasick\'e1\loch\f0 \hich\f0  politick\'e1\loch\f0 \hich\f0  ekon\'f3\loch\f0 \hich\f0 mia 19. st. Predt\'fd\loch\f0 \hich\f0 m- Colbertizmus=Merkantilizmus - akt\'ed\loch\f0 \hich\f0 
+vna obchodn\'e1\loch\f0 \hich\f0  bilancia, snaha aby bol v\'e4\'e8\'9a\'ed\loch\f0 \hich\f0  dovoz ako v\'fd\loch\f0 v}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 oz}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  . Dov\'e1\'9e\loch\f0 \hich\f0 a\'9d\loch\f0  dr\hich\af0\dbch\af31505\loch\f0 \hich\f0 ah\'e9\loch\f0 \hich\f0  kovy . Vych\'e1\loch\f0 \hich\f0 dzali zo situ\'e1
+\loch\f0 \hich\f0 cie, preto\'9e\loch\f0 \hich\f0 e Franc\'fa\loch\f0 \hich\f0 zsko si to mohlo dovoli\'9d\loch\f0 \hich\f0 . Cie\'be\loch\f0 \hich\f0 om bolo naakumulovanie drah\'fd\loch\f0 \hich\f0 ch kovov. V\'fd\loch\f0 \hich\f0 roba luxusn\'e9
+\loch\f0 \hich\f0 ho tovaru. Manufakt\'fa\loch\f0 \hich\f0 ry pova\'9e\loch\f0 \hich\f0 uj\'fa\loch\f0 \hich\f0  za hlavn\'fd\loch\f0 \hich\f0  zdroj zv\'e4\'e8\'9a\loch\f0 \hich\f0 ovania bohatstva kraj\'ed\loch\f0 \hich\f0 n, preto hlavn\'e1\loch\f0 
+\hich\f0  \'fa\loch\f0 \hich\f0 loha \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu a panovn\'ed}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ka}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0   bolo podporova\'9d\loch\f0 \hich\f0  manufakt\'fa}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 rnu}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  v\'fd\loch\f0 robu.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid14949277 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Gaius Marius}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - \'9e\loch\f0 
+\hich\f0 oldnierska arm\'e1\loch\f0 \hich\f0 da, vojaci boli platen\'fd\loch\f0 \hich\f0  ak pre\'9e\loch\f0 \hich\f0 ili vojnu, dostali p\'f4\loch\f0 du.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Tom\'e1\'9a\loch\f0 \hich\f0  Akvinsk\'fd}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  - po 1. kr\'e1\loch\f0 \hich\f0 t snaha definova\'9d\loch\f0  ekonomic}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 k}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'e9\loch\f0  pojmy.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Obdobie kolon\'e1\loch\f0 tu}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+ - starovek - prepuste}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 n}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'ed\loch\f0 \hich\f0 
+ otroci, Rimania za\'e8\loch\f0 ali p\hich\af0\dbch\af31505\loch\f0 \hich\f0 rep\'fa\'9a\'9d\loch\f0 \hich\f0 a\'9d\loch\f0 \hich\f0  otrokov - t\'ed\loch\f0 \hich\f0  za\'e8\loch\f0 \hich\f0 ali obr\'e1\loch\f0 \hich\f0 ba\'9d\loch\f0 \hich\f0  p\'f4
+\loch\f0 du.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Bratia Gracchovci}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ - starovek- pozemkov\'e1\loch\f0 \hich\f0  reforma . Vytvorili: \'93\loch\f0 \hich\f0 Anglick\'e1\loch\f0 \hich\f0  politick\'e1\loch\f0 \hich\f0  ekon\'f3\loch\f0 \hich\f0 mia\'94\loch\f0 \hich\f0  : Klasick\'e1\loch\f0 \hich\f0  ekonomika - \'9a
+\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 t nemal priamo zasahova\'9d\loch\f0 \hich\f0   do ekonomiky, \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 t mal iba zabezpe\'e8\loch\f0 \hich\f0 i\'9d\loch\f0 \hich\f0  poriadok, z\'e1\loch\f0 kony. Obdobie do 19
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 . St. -kapitalizmus vo\'be\loch\f0 \hich\f0 nej s\'fa\'9d\loch\f0 \hich\f0 a\'9e\loch\f0 \hich\f0 e - princ\'ed}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 p kapit\'e1\loch\f0 \hich\f0 l: statky vznikaj\'fa\loch\f0 \hich\f0  za \'fa\'e8}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 elom zisku- princ\'ed
+\loch\f0 \hich\f0 p nevidite\'be\loch\f0 nej ruky.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 A.Smith}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - te\'f3\loch\f0 \hich\f0 
+ria hodnoty: bu\'ef\loch\f0 \hich\f0  sa hodnota tovaru tvor\'ed\loch\f0 \hich\f0   na trhu alebo vo v\'fd\loch\f0 \hich\f0 robe. On tvrd\'ed\loch\f0 \hich\f0 , \'9e\loch\f0 \hich\f0 e hodnota tovaru sa vytv\'e1\loch\f0 \hich\f0 ra vo v\'fd
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 robe a meradlom je pr\'e1\loch\f0 \hich\f0 ca - konkr\'e9\loch\f0 \hich\f0 tna- mno\'9e\loch\f0 \hich\f0 stvo pr\'e1\loch\f0 \hich\f0 ce vynalo\'9e\loch\f0 \hich\f0 enej na v\'fd\loch\f0 robok }{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \endash }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  v\'9a\loch\f0 etky}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  \'e8\loch\f0 innosti}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 .
+\par \hich\af0\dbch\af31505\loch\f0                                            }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512 \hich\af0\dbch\af31505\loch\f0                        }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - minul\'e1\loch\f0 \hich\f0  - pr\'e1\loch\f0 \hich\f0 ca dan\'e1\loch\f0 \hich\f0  do v\'fd\loch\f0 \hich\f0 robn\'fd\loch\f0 \hich\f0 ch prostriedkov - napr. pe\'e8\loch\f0 
+\hich\f0 enie - aj formi\'e8\loch\f0 ky musel niekto vyr\hich\af0\dbch\af31505\loch\f0 \hich\f0 obi\'9d\'85
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  
+\par \hich\af0\dbch\af31505\loch\f0 David Ricardo}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - kompar\'e1\loch\f0 \hich\f0 cie - porovn\'e1\loch\f0 vanie - kompa}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ra}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'e8}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 n}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'e1\loch\f0 \hich\f0   te\'f3\loch\f0 \hich\f0 ria - ka\'9e\loch\f0 \hich\f0 d
+\'e1\loch\f0 \hich\f0  ekonomika m\'e1\loch\f0 \hich\f0  vyr\'e1\loch\f0 \hich\f0 b\'9d\loch\f0 \hich\f0  to na\'e8\loch\f0 o ma najviac prostriedkov.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 R. Maltuz-Maltuzi\'e1\loch\f0 nstvo}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  - klasick\'e1\loch\f0 \hich\f0  politick\'e1\loch\f0 \hich\f0  ekon\'f3\loch\f0 \hich\f0 mia. Popula\'e8\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0  te\'f3\loch\f0 \hich\f0 ria- \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 
+\hich\f0 t by mal kontrolova\'9d\loch\f0 \hich\f0  p\'f4\loch\f0 \hich\f0 rodnos\'9d\loch\f0 \hich\f0 . Priemyseln\'e1\loch\f0  rev\hich\af0\dbch\af31505\loch\f0 \hich\f0 ol\'fa\loch\f0 \hich\f0 cia- popula\'e8\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0 
+ expl\'f3\loch\f0 \hich\f0 zia. Hladomor, vojny, choroby pova\'9e\loch\f0 \hich\f0 oval za prirodzen\'fd\loch\f0 \hich\f0  d\'f4\loch\f0 \hich\f0 sledok zni\'9e\loch\f0 \hich\f0 ovania obyvate\'be\loch\f0 ov. 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 K.Marx a Fr.Engels}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512 \hich\af0\dbch\af31505\loch\f0  - Marxizmus}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - dielo: Kapit\'e1\loch\f0 \hich\f0 l - anal\'fd\loch\f0 \hich\f0 zy kapitalizmu aj nedostatky. Na\'e8\loch\f0 \hich\f0 rt\'e1\loch\f0 \hich\f0 va nov\'e9\loch\f0 
+ predst}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 avy}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  : vytvor}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid1343237\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 i}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'9d\loch\f0 \hich\f0  spravodliv\'fa\loch\f0 \hich\f0  soci\'e1
+\loch\f0 lnu spol\hich\af0\dbch\af31505\loch\f0 \hich\f0 o\'e8\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0  bez vykoris\'9d\loch\f0 \hich\f0 ovania. Vybudova\'9d\loch\f0 \hich\f0  socializmus -v\'9a\loch\f0 \hich\f0 etci maj\'fa\loch\f0 \hich\f0  pracova
+\'9d\loch\f0 \hich\f0  pod\'be\loch\f0 \hich\f0 a svojich schopnost\'ed\loch\f0 \hich\f0  a odmenu dostan\'fa\loch\f0 \hich\f0  pod\'be\loch\f0 \hich\f0 a z\'e1\loch\f0 \hich\f0 sluh. Komunizmus- pracova\'9d\loch\f0 \hich\f0  pod\'be\loch\f0 \hich\f0 
+a schopnost\'ed\loch\f0 \hich\f0  a odmenu pod\'be\loch\f0 \hich\f0 a toho \'e8\loch\f0 \hich\f0 o \'e8\loch\f0 lovek potrebuje. 
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Ekonomicko- filozofick\'e9\loch\f0 \hich\f0  rukopisy. Z\'e1\loch\f0 klad: }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 zospol
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 o\'e8\loch\f0 \hich\f0 en\'9a\loch\f0 tenie}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 robn\'fd\loch\f0 \hich\f0 
+ch prostriedkov - kolektiviz\'e1\loch\f0 cia - 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Te\'f3\loch\f0 \hich\f0 ria nadhodnoty - pracovn\'e1\loch\f0 \hich\f0  sila je schopn\'e1\loch\f0 \hich\f0  vytv\'e1\loch\f0 \hich\f0 ra\'9d\loch\f0 \hich\f0  nadhodnotu - \'e8\loch\f0 \hich\f0 lovek pracuj\'fa
+\loch\f0 \hich\f0 ci dok\'e1\'9e\loch\f0 \hich\f0 e vyrobi\'9d\loch\f0 \hich\f0  viac. Mzda - je tu zhodnoten\'e9\loch\f0 \hich\f0 , aby bola na regener\'e1\loch\f0 ciu pracovnej sily 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 napr. prac. \'e8\loch\f0 \hich\f0 as 10 hod\'ed\loch\f0 n - 2 hod\hich\af0\dbch\af31505\loch\f0 iny pre seba
+\par \hich\af0\dbch\af31505\loch\f0      }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0                    }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  -8 hod\'ed\loch\f0 \hich\f0 n pre nadhodnotu- chce viac nadhodnoty preto bu\'ef\loch\f0 \hich\f0 : zv\'fd\'9a\loch\f0 \hich\f0 i pracovn\'fd\loch\f0 \hich\f0  \'e8\loch\f0 as , }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 zoberieme }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 mzdu, zav\'e1\loch\f0 dzanie techniky
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Neoklasick\'e1\loch\f0 \hich\f0  ekon\'f3\loch\f0 mia}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  -19. - 20. St.- z\'e1\loch\f0 \hich\f0 kladom je zabezpe\'e8\loch\f0 \hich\f0 i\'9d\loch\f0 \hich\f0  dokonal\'fa\loch\f0 \hich\f0  konkurenciu - v\'9a\loch\f0 \hich\f0 etci maj\'fa\loch\f0 \hich\f0  rovnak\'e9
+\loch\f0  \hich\af0\dbch\af31505\loch\f0 \hich\f0 podmienky ke\'ef\loch\f0 \hich\f0  vstupuj\'fa\loch\f0 \hich\f0  na trh. M\'f4\'9e\loch\f0 \hich\f0 e to zabezpe\'e8\loch\f0 \hich\f0 i\'9d\loch\f0 \hich\f0  \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 
+t - rie\'9a\loch\f0 enie: 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Paratevo optimum}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - nikto nem\'f4
+\'9e\loch\f0 \hich\f0 e zlep\'9a\loch\f0 \hich\f0 i\'9d\loch\f0 \hich\f0  svoju ekonomic\'fa\loch\f0 \hich\f0  situ\'e1\loch\f0 c}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 u}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  bez toho , aby nezhor\'9a\loch\f0 \hich\f0 il situ\'e1\loch\f0 c}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 iu}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  niekoho in\'e9\loch\f0 ho.
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Te\'f3\loch\f0 \hich\f0 ria hrani\'e8\loch\f0 \hich\f0 nej u\'9e\loch\f0 \hich\f0 ito\'e8\loch\f0 nosti}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - hodnota tovaru je ur\'e8\loch\f0 \hich\f0 en\'e1\loch\f0 \hich\f0  majie\'be\loch\f0 \hich\f0 ovi subjekt\'ed\loch\f0 v\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+nym citom uspokojenia poslednou jednotkou danej z\'e1\loch\f0 \hich\f0 soby ur\'e8\loch\f0 \hich\f0 it\'e9\loch\f0 \hich\f0 ho tovaru - a\'9e\loch\f0 \hich\f0  vtedy si uvedom\'ed\loch\f0 \hich\f0 me \'e8\loch\f0 \hich\f0 o m\'e1\loch\f0 \hich\f0 me, ke
+\'ef\loch\f0 \hich\f0  to strat\'ed\loch\f0 me. 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid14949277 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Keynessova te\'f3\loch\f0 ria}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0  - zd\'f4\loch\f0 \hich\f0 vodnenie nevyhnutnosti \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 tn}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ych }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  z\'e1\loch\f0 sah}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ov}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  do trhovej ekonomiky. 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Z\'e1\loch\f0 \hich\f0 sahy \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu: priamo, cez z\'e1\loch\f0 kony
+\par \hich\af0\dbch\af31505\loch\f0 3 piliere: Mu\hich\af0\dbch\af31505\loch\f0 \hich\f0 ltiplika\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0  efekt - viacn\'e1\loch\f0 \hich\f0 sobn\'fd\loch\f0  efekt
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0          }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Te\'f3\loch\f0 \hich\f0 
+ria efekt\'ed\loch\f0 \hich\f0 vneho dopytu - ak je v\'e4\'e8\'9a\loch\f0 \hich\f0 ia zamestnanos\'9d\loch\f0 \hich\f0  tak \'be\loch\f0 \hich\f0 udia viac nakupuj\'fa\loch\f0 \hich\f0  - v\'e4\'e8\'9a\'ed\loch\f0  dopyt
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0         }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  Te\'f3\loch\f0 \hich\f0 
+ria zamestnanosti - \'fa\loch\f0 \hich\f0 loha \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu- odstr\'e1\loch\f0 \hich\f0 ni\'9d\loch\f0 \hich\f0  nezamestnanos\'9d\loch\f0 \hich\f0  - zni\'9e\loch\f0 \hich\f0 ova\'9d\loch\f0 \hich\f0 , preto\'9e
+\loch\f0 \hich\f0 e odstr\'e1\loch\f0 \hich\f0 ni\'9d\loch\f0 \hich\f0  sa ned\'e1..
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Moneta\hich\af0\dbch\af31505\loch\f0 rizmus}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0  - predstavite\'be\loch\f0  : M.Friedman
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0                         -\'fa\loch\f0 \hich\f0 loha \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu zabezpe\'e8\loch\f0 \hich\f0 i\'9d\loch\f0 \hich\f0  optim\'e1\loch\f0 \hich\f0 lny pe\'f2\loch\f0 \hich\f0 a\'9e
+\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0  stav cez da\'f2\loch\f0 \hich\f0 ov\'fa\loch\f0  politiku
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid14949277\charrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs32 \ltrch\fcs0 \b\fs32\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Zadanie \'e8\loch\f0 .6
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid14949277 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid14949277 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\i\fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'e8}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 .1 Vymenujte a pop\'ed\'9a\loch\f0 \hich\f0 
+te etapy sociologick\'e9\loch\f0 \hich\f0 ho v\'fd\loch\f0 skum}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid16338588\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 u}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid8725503\charrsid14949277 .
+
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par \loch\af0\dbch\af31505\hich\f0 -\'fa\loch\f0 \hich\f0 lohou sociologick\'e9\loch\f0 \hich\f0 ho v\'fd\loch\f0 skum}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 u }{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  je monitoring , preh\'be\loch\f0 \hich\f0 ad spolo\'e8\loch\f0 \hich\f0 nosti. Prinies\'9d\loch\f0 \hich\f0  nov\'e9\loch\f0 \hich\f0  inform\'e1\loch\f0 \hich\f0 
+cie o spolo\'e8\loch\f0 \hich\f0 nosti, ktor\'e9\loch\f0 \hich\f0  sa predkladaj\'fa\loch\f0 \hich\f0  politikom, musia to \'ef\loch\f0 \hich\f0 alej rie\'9a\loch\f0 \hich\f0 i\'9d\loch\f0  
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -cie\'be\loch\f0 \hich\f0 om je presk\'fa\loch\f0 \hich\f0 ma\'9d\loch\f0 \hich\f0  vybran\'fd\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 sek soci\'e1\loch\f0 \hich\f0 lnej spolo\'e8\loch\f0 nosti.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Etapy sociologick\'e9\loch\f0 \hich\f0 ho v\'fd\loch\f0 skum}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 :
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 1. T\'e9\loch\f0 \hich\f0 ma, zadanie \'fa\loch\f0 lohy}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  - pr\'ed\loch\f0 \hich\f0 pravn\'e1\loch\f0  \hich\af0\dbch\af31505\loch\f0 \hich\f0 f\'e1\loch\f0 \hich\f0 za,vymedzenie predmetu sociologick\'e9\loch\f0 ho}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  v\'fd\loch\f0 skumu}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 .
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 2. Pracovn\'e1\loch\f0 \hich\f0  hypot\'e9\loch\f0 za}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  - predbe\'9e\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0  anal\'fd\loch\f0 \hich\f0 za sl\'fa\'9e\loch\f0 \hich\f0 i na to aby sme sa so soci\'e1\loch\f0 \hich\f0 lnym javom obozn\'e1\loch\f0 \hich\f0 mili. Na\'9a
+\loch\f0 \hich\f0 a v\'ed\loch\f0 \hich\f0 zia, tu\'9a\loch\f0 \hich\f0 enie ako chceme nie\'e8\loch\f0 o }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 potvdi\'9d\loch\f0  }{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 alebo vyvr\'e1\loch\f0 \hich\f0 ti\'9d.
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 3. Pr\'ed\loch\f0 prava doku}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+mentov}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - \'9a\loch\f0 \hich\f0 t\'fa\loch\f0 \hich\f0 dium literat\'fa\loch\f0 \hich\f0 ry, v\'9a\loch\f0 etko\hich\af0\dbch\af31505\loch\f0 
+\hich\f0  si k danej t\'e9\loch\f0 \hich\f0 me na\'9a\loch\f0 tudujeme.
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 4. Met\'f3\loch\f0 da}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ - sp\'f4\loch\f0 \hich\f0 sob z\'ed\loch\f0 \hich\f0 skavania inform\'e1\loch\f0 \hich\f0 ci\'ed\loch\f0 :
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0                                          -historick\'e1\loch\f0  - zachyt}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 i}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'9d\loch\f0 \hich\f0   s\'fa\loch\f0 \hich\f0 vislos\'9d\loch\f0 \hich\f0  - sk\'fa\loch\f0 \hich\f0 mame v\'fd\loch\f0 v}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 oj }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  sledovan\'e9\loch\f0 ho javu, procesu
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0                                          -porovn\'e1\loch\f0 vacia
+\par \hich\af0\dbch\af31505\loch\f0            \hich\af0\dbch\af31505\loch\f0 \hich\f0                               -\'9a\loch\f0 \hich\f0 tatistick\'e1\loch\f0 \hich\f0  - z\'ed\loch\f0 \hich\f0 skavanie \'9a\loch\f0 \hich\f0 tatistick\'fd\loch\f0 \hich\f0 
+ch \'fa\loch\f0 \hich\f0 dajov o skuto\'e8\loch\f0 nostiach
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Pri met\'f3\loch\f0 \hich\f0 de je ve\'be\loch\f0 mi }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 d\'f4\loch\f0 \hich\f0 le\'9e\loch\f0 
+\hich\f0 it\'e9\loch\f0 \hich\f0  \'c8\loch\f0 O a AKO}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  sa budeme respondent p\'fd\loch\f0 \hich\f0 ta\'9d\loch\f0 \hich\f0 , sp\'f4\loch\f0 
+\hich\f0 sob zberu inform\'e1\loch\f0 \hich\f0 ci\'ed\loch\f0 :
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -DOTAZN\'cd\loch\f0 K - respondent si vyberie  z }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 viacer\'fd\loch\f0 ch }{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 mo\'9e\loch\f0 \hich\f0 nost\'ed\loch\f0 \hich\f0  - jednoduch\'9a\'ed\loch\f0  \hich\af0\dbch\af31505\loch\f0 \hich\f0 a lacnej\'9a\'ed\loch\f0 \hich\f0  sp\'f4
+\loch\f0 sob
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -ANKETA - otvoren\'e1\loch\f0 \hich\f0  mo\'9e\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0  zodpovedania na dan\'fa\loch\f0 \hich\f0  ot\'e1\loch\f0 zku
+\par 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Pozorovanie: -priame - ke\'ef\loch\f0 \hich\f0  respondenti dostan\'fa\loch\f0 \hich\f0  \'fa\loch\f0 \hich\f0 lohu, ktor\'fa\loch\f0 \hich\f0  maj\'fa\loch\f0 \hich\f0  zvl\'e1\loch\f0 \hich\f0 dnu\'9d
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0                       -nepriame - ke\'ef\loch\f0   o tom respondenti nevedia
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 5. Anal\'fd\loch\f0 za}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ = kritika - zozbieranie n\'e1\loch\f0 zorov\hich\af0\dbch\af31505\loch\f0 \hich\f0 , \'fa\loch\f0 dajov
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 6. Synt\'e9\loch\f0 za}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ - formulaic z\'e1\loch\f0 verov, vyhodnotenie
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid14949277 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid14949277 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\fs24\insrsid8725503\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0  \'e8\loch\f0 .2 }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid14949277\charrsid14949277 \hich\af0\dbch\af31505\loch\f0  \hich\af0\dbch\af31505\loch\f0  }{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Na konkr\'e9\loch\f0 \hich\f0 tnych uk\'e1\'9e\loch\f0 \hich\f0 kach uve\'ef\loch\f0 \hich\f0 te pr\'ed\loch\f0 \hich\f0 
+klady, kde sa praktizovali nasleduj\'fa\loch\f0 \hich\f0 ce formy \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 tu:}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid9196512\charrsid14949277 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid14949277\charrsid14949277 \hich\af0\dbch\af31505\loch\f0         }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+- Monarchia, republika, diktat\'fa\loch\f0 ra.
+\par \tab \hich\af0\dbch\af31505\loch\f0 \hich\f0 - Uve\'ef\loch\f0 \hich\f0 te rozdiel medzi feder\'e1\loch\f0 ciou a\~\hich\f0 konfeder\'e1\loch\f0 ciou a\~\hich\f0 uve\'ef\hich\af0\dbch\af31505\loch\f0 \hich\f0 te konkr\'e9\loch\f0 tny }{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid14949277 \hich\af0\dbch\af31505\loch\f0                   }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 pr\'ed\loch\f0 klad
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  feder\'e1\loch\f0 cie.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid14949277 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 - V\~\hich\f0 ktorom obdob\'ed\loch\f0 \hich\f0  n\'e1\'9a\loch\f0 \hich\f0 ho \'fa\loch\f0 \hich\f0 stavn\'e9\loch\f0 \hich\f0 ho v\'fd\loch\f0 
+\hich\f0 voja sme mali federat\'ed\loch\f0 vne usporiadanie?
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Op\'ed\'9a\loch\f0 te ho.  
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512\charrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Monarchia:
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 - je to dedi\'e8\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0  do\'9e\loch\f0 \hich\f0 ivotn\'e1\loch\f0 \hich\f0  vl\'e1\loch\f0 \hich\f0 
+da  jedn\'e9\loch\f0 \hich\f0 ho vl\'e1\loch\f0 \hich\f0 dcu. Pod\'be\loch\f0 \hich\f0 a moci, ktor\'fa\loch\f0 \hich\f0  monarchia m\'e1\loch\f0 \hich\f0  rozli\'9a\loch\f0 ujeme tieto typy monarchie\hich\af0\dbch\af31505\loch\f0 : 
+\par \hich\af0\dbch\af31505\loch\f0 1. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Absolutistick\'e1\loch\f0  monarchia}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - neobmedzen\'e1\loch\f0 \hich\f0 - je to monarchia, ked panovn\'ed\loch\f0 \hich\f0 k m\'e1\loch\f0 \hich\f0  neobmedzen\'fa\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 konn\'fa
+\loch\f0 \hich\f0 , z\'e1\loch\f0 \hich\f0 konodarn\'fa\loch\f0 \hich\f0  a s\'fa\loch\f0 \hich\f0 dnu moc. Franc\'fa\loch\f0 \hich\f0 zsko za vl\'e1}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+dy}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  \'bc\loch\f0 \hich\f0 udov\'ed\loch\f0 \hich\f0 ta XIV., existuje e\'9a\loch\f0 \hich\f0 te v Afrike a \'c1\loch\f0 zii 
+\par \hich\af0\dbch\af31505\loch\f0 2. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Kon\'9a\loch\f0 \hich\f0 titu\'e8\loch\f0 \hich\f0 n\'e1\loch\f0  monarchia}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - obmedze\'e1\loch\f0 \hich\f0  - moc panovn\'ed\loch\f0 k}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 a
+}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0   je \hich\af0\dbch\af31505\loch\f0 \hich\f0 obmedze\'e1\loch\f0 \hich\f0  pr\'e1\loch\f0 vomocami in}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'fd}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ch }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 tnych }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 org\'e1\loch\f0 \hich\f0 nov. 
+\'8a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tne org\'e1\loch\f0 \hich\f0 ny s\'fa\loch\f0 \hich\f0  volen\'e9\loch\f0  parlamento}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 m}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 . Tak\'fa\loch\f0 \hich\f0 to monarchiu naz\'fd\loch\f0 \hich\f0 vame aj parlamentnou monarchiou. Ako napr. Ve\'be\loch\f0 \hich\f0 k\'e1\loch\f0 \hich\f0 
+ Brit\'e1\loch\f0 \hich\f0 nia, \'8a\loch\f0 \hich\f0 v\'e9\loch\f0 ds}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ko}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0   a D\'e1\loch\f0 nsko.
+\par \hich\af0\dbch\af31505\loch\f0 3. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Stavovsk\'e1\loch\f0  monarchia}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - feud\'e1\loch\f0 \hich\f0 lna monarchia - 15.st. - na moci sa z\'fa\'e8\loch\f0 \hich\f0 ast\'f2\loch\f0 ov\hich\af0\dbch\af31505\loch\f0 \hich\f0 ali aj niektor\'e9\loch\f0 
+\hich\f0  stavy ako \'9a\loch\f0 \hich\f0 lachta, duchovenstvo, me\'9a\loch\f0 \hich\f0 tianstvo. Tieto presadzovali svoju moc cez stavovs\'fd\loch\f0 \hich\f0   snem alebo zdru\'9e\loch\f0 enie. 
+\par \hich\af0\dbch\af31505\loch\f0 4. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Teokratick\'e1\loch\f0  monarchia}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 - typick\'fd\loch\f0 \hich\f0 m pr\'ed\loch\f0 \hich\f0 kladom je Vatik\'e1\loch\f0 \hich\f0 n. Na \'e8\loch\f0 \hich\f0 ele tak\'e9\loch\f0 \hich\f0 hoto \'9a\loch\f0 \hich\f0 t
+\'e1\loch\f0 \hich\f0 tu stoj\'ed\loch\f0 \hich\f0  zvolen\'fd\loch\f0 \hich\f0  duchovn\'fd\loch\f0  vodca. 
+\par \hich\af0\dbch\af31505\loch\f0 5. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Dualistick\'e1\loch\f0  mo\hich\af0\dbch\af31505\loch\f0 narchia}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  - je to spoluvl\'e1\loch\f0 die }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 a}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  a parlamentu. Panovn\'ed\loch\f0 \hich\f0 k m\'e1\loch\f0 \hich\f0  skoro \'fa\loch\f0 \hich\f0 pln\'fa\loch\f0  absolutis}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 tick}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'fa\loch\f0 \hich\f0   moc, ale \'e8\loch\f0 \hich\f0 as\'9d\loch\f0 
+\hich\f0  moci prenech\'e1\loch\f0 \hich\f0 va parlamentu.Panovn\'ed\loch\f0 \hich\f0 k je z\'e1\loch\f0 \hich\f0 rove\'f2\loch\f0 \hich\f0  predseda parlamentu, ktor\'fd\loch\f0 \hich\f0  menuje aj odvol\'e1\loch\f0 \hich\f0 va jeho \'e8\loch\f0 
+\hich\f0 lenov- napr. Jord\'e1\loch\f0 nsko .
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Republika:
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 - je tak\'e1\loch\f0 \hich\f0  \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 tna forma\hich\af0\dbch\af31505\loch\f0 \hich\f0 
+, v ktorej neexistuje dedi\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0  panovn\'ed\loch\f0 \hich\f0 cky \'fa\loch\f0 \hich\f0 rad a jej predstavitelia s\'fa\loch\f0 \hich\f0  volen\'ed\loch\f0 \hich\f0  iba na z\'e1\loch\f0 \hich\f0 klade \'fa\loch\f0 
+stavy. 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -je prevl\'e1\loch\f0 \hich\f0 daj\'fa\loch\f0 cou}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  formou \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 
+\hich\f0 tu v Eur\'f3\loch\f0 pe, Amerike}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  a Austr\'e1\loch\f0 lii
+\par \hich\af0\dbch\af31505\loch\f0 -hlav}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 a \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu je volen\'e1\loch\f0 \hich\f0  priamo ob\'e8\loch\f0 
+anmi, }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 zborom volite\'be\loch\f0  alebo parlamentom  
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 - plat\'ed\loch\f0 \hich\f0  v nej princ\'ed\hich\af0\dbch\af31505\loch\f0 \hich\f0 p de\'be\loch\f0 \hich\f0 by moci / Z , V , S/ a princ\'ed\loch\f0 p rovnosti }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 ob\'e8\loch\f0 anov}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Parlamentn\'e1\loch\f0  republika}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0 / Holandsko, Slovensko, \'c8\loch\f0 esko/
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -parlament ur\'e8\loch\f0 \hich\f0 uje zlo\'9e\loch\f0 \hich\f0 enie vl\'e1\loch\f0 d}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 y}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  a jej politiku , po vo\'be\loch\f0 \hich\f0 b\'e1\loch\f0 \hich\f0 ch parlament zostav\'ed\loch\f0 \hich\f0  vl\'e1\loch\f0 du a ustano}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 v}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'ed\loch\f0 \hich\f0  ministrov do funkcie/v pr\'ed
+\loch\f0 \hich\f0 pade potreby ich aj odvol\'e1\loch\f0 va/
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 - parlament schva\'be\loch\f0 \hich\f0 uje vl\'e1\loch\f0 \hich\f0 dny program, posudzuje \'e8\loch\f0 \hich\f0 innos\'9d\loch\f0 \hich\f0  vl\'e1\loch\f0 d}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 y}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Prezidentsk\'e1\loch\f0  republika}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0 / USA, Braz\'ed\loch\f0 lia, Mexiko/
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 - v\'fd\loch\f0 \hich\f0 nimo\'e8\loch\f0 \hich\f0 n\'e9\loch\f0 \hich\f0  postavenie m\'e1\loch\f0  prez}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ident
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -z\'e1\loch\f0 \hich\f0 kladom tak\'e9\loch\f0 \hich\f0 hoto postavenia je vo\'be\loch\f0 \hich\f0 ba  prezidenta mimo parlamentu/volite\'be\hich\af0\dbch\af31505\loch\f0 \hich\f0 mi v USA, priamo voli\'e8\loch\f0 
+\hich\f0 mi Franc\'fa\loch\f0 \hich\f0 zsko, Rusko/  a pridelenie pr\'e1\loch\f0 \hich\f0 vomoci prezidentovi na \'fa\loch\f0 \hich\f0 kor vl\'e1\loch\f0 d}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 y}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  aj parlamentu       
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Diktat\'fa\loch\f0 ra:
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 -neobmedzen\'e1\loch\f0 \hich\f0  vl\'e1\loch\f0 da , moc jednotlivca, jednej politicke}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 j}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  strany alebo spolo\'e8\loch\f0 enskej triedy  
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 -k najzn\'e1\loch\f0 \hich\f0 mej\'9a\'ed\loch\f0 \hich\f0 m diktat\'fa\loch\f0 ram patrili: \hich\af0\dbch\af31505\loch\f0 \hich\f0 Bo\'be\'9a\loch\f0 \hich\f0 evizmus v Rusku - vodcom bol Vladim\'ed\loch\f0 
+\hich\f0 r I\'be\loch\f0 \hich\f0 ji\'e8\loch\f0 \hich\f0  Lenin, jeho pokra\'e8\loch\f0 \hich\f0 ovate\'be\loch\f0 \hich\f0 om bol Josif Vissarionovi\'e8\loch\f0 \hich\f0  Stalin nacionalizmus, fa\'9a\loch\f0 iz}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 mus}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  v Taliansku - Benito Mussoliny, v Nemecku Adolf Hitler.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Rozdiely medzi feder\'e1\loch\f0 \hich\f0 ciou a konfeder\'e1\loch\f0 ciou:
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 FEDER\'c1\loch\f0 CIA}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ - \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 t je rozde\hich\af0\dbch\af31505\loch\f0 \hich\f0 len\'fd\loch\f0 \hich\f0  na \'e8\loch\f0 \hich\f0 lensk\'e9\loch\f0 \hich\f0  jednotky, ktor\'e9\loch\f0 \hich\f0  maj\'fa\loch\f0 \hich\f0  vlastn\'fa\loch\f0 
+\hich\f0  \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tnu moc. Sklad\'e1\loch\f0 \hich\f0  sa z dvoch alebo vicer\'fd}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ch}{\rtlch\fcs1 \af0\afs24 
+\ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0   \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tov. Z\'e1\loch\f0 kladom vzniku }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 feder\'e1\loch\f0 cie }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 je spolo\'e8\loch\f0 \hich\f0 n\'e1\loch\f0 \hich\f0  zmluva medzi \'9a
+\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tmi ur\'e8\loch\f0 \hich\f0 uj\'fa\loch\f0 \hich\f0 ca kompetencie, ktor\'e9\loch\f0 \hich\f0  prech\'e1\loch\f0 \hich\f0 dzaj\'fa\loch\f0 \hich\f0  na spolo\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0  \'9a
+\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 t, a ktor\'e9\loch\f0 \hich\f0  si \'9a\loch\f0 t}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'e1\loch\f0 \hich\f0 t ponech\'e1\loch\f0 \hich\f0 va. Pr
+\'e1\loch\f0 vomoci cent\hich\af0\dbch\af31505\loch\f0 \hich\f0 r\'e1\loch\f0 lnych}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 - feder\'e1\loch\f0 l}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 nych}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  org\'e1\loch\f0 \hich\f0 nov s\'fa\loch\f0 \hich\f0 
+ presne vymedzen\'e9\loch\f0 \hich\f0  \'fa\loch\f0 stavou / USA /
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\ul\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 KONFEDER\'c1\loch\f0 CIA}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0  - zv\'e4\loch\f0 \hich\f0 zok suver\'e9\loch\f0 \hich\f0 nnych \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tov . \'8a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 ty konfeder\'e1\loch\f0 \hich\f0 cie si vytv\'e1\loch\f0 \hich\f0 raj\'fa\loch\f0 
+\hich\f0  spolo\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0  org\'e1\loch\f0 \hich\f0 n , ktor\'fd\loch\f0 \hich\f0  prij\'ed\loch\f0 \hich\f0 ma rozhodnutia. Z\'e1\loch\f0 \hich\f0 kladn\'e9\loch\f0 \hich\f0  pr\'e1\loch\f0 \hich\f0 vomoci m\'e1\loch\f0 
+\hich\f0  ka\'9e\loch\f0 \hich\f0 d\'fd\loch\f0 \hich\f0  \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 t  a centr\'e1\loch\f0 \hich\f0 lna moc m\'e1\loch\f0 \hich\f0  iba tie pr\'e1\loch\f0 vomoci\hich\af0\dbch\af31505\loch\f0 \hich\f0  na ktor\'fd
+\loch\f0 c}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid16338588\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 h}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0   sa  \'e8\loch\f0 
+\hich\f0 lensk\'e9\loch\f0 \hich\f0  \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 ty dohodn\'fa\loch\f0 \hich\f0  / E\'da\loch\f0  /
+\par 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Federat\'ed\loch\f0 vne usporiadanie:
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 -noveliz\'e1\loch\f0 \hich\f0 cia \'fa\loch\f0 \hich\f0 stavy z roku 1960 novelizovan\'e1\loch\f0 \hich\f0   v roku 1968 pod vplyv Pra\'9e
+\loch\f0 \hich\f0 skej jari. Z \'c8\loch\f0 \hich\f0 eskoslovenska sa stala federat\'ed\loch\f0 \hich\f0 vna republika. Zru\'9a\loch\f0 \hich\f0 en\'fd\loch\f0 \hich\f0  v\'fd\loch\f0 \hich\f0 bor poveren\'ed\loch\f0 \hich\f0 kov. Rovnak\'fd\loch\f0 
+\hich\f0  po\'e8\loch\f0 \hich\f0 et slovensk\'fd\hich\af0\dbch\af31505\loch\f0 \hich\f0 ch a \'e8\loch\f0 \hich\f0 esk\'fd\loch\f0 \hich\f0 ch poslancov - 75. Slab\'e9\loch\f0 \hich\f0  kompetencie prezidenta. KS\'8a\loch\f0 \hich\f0  nezostalo ved\'fa
+\loch\f0 \hich\f0 cou silou. Posilnen\'e9\loch\f0 \hich\f0  pr\'e1\loch\f0 \hich\f0 vomoci z\'e1\loch\f0 \hich\f0 konod\'e1\loch\f0 \hich\f0 rnych org\'e1\loch\f0 \hich\f0 nov. Zru\'9a\loch\f0 \hich\f0 enie ideol\'f3\loch\f0 gie marxizmu.
+\par 
+\par 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \wrapdefault\nooverflow\faauto\rin0\lin0\itap0\pararsid14949277 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\i\fs24\insrsid8725503\charrsid14949277 \loch\af0\dbch\af31505\hich\f0 \'e8\loch\f0 . 3   }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Porovnajte soci\'e1\loch\f0 \hich\f0 
+lne zmeny, ktor\'fd\loch\f0 \hich\f0 mi pre\'9a\loch\f0 \hich\f0 la slovensk\'e1\loch\f0 \hich\f0  spolo\'e8\loch\f0 \hich\f0 nos\'9d\loch\f0  v\~\hich\f0 20. storo\'e8\'ed.}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid14949277 
+\hich\af0\dbch\af31505\loch\f0 .  }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\i\fs24\insrsid9196512\charrsid14949277 \hich\af0\dbch\af31505\loch\f0 A\hich\af0\dbch\af31505\loch\f0 plikujte svoje stanovisko k\~\hich\f0 problematike soci\'e1\loch\f0 \hich\f0 
+lnej zmeny. Vyu\'9e\loch\f0 ite vedomosti \tab z\~filozofie (Karol Marx, Auguste Comte).
+\par }\pard \ltrpar\qr \fi-720\li720\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin720\itap0\pararsid9196512 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid9196512\charrsid9196512 
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\nooverflow\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \i\fs24\insrsid8725503\charrsid9196512 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\par 
+\par \loch\af0\dbch\af31505\hich\f0 \'bc\loch\f0 \hich\f0 udsk\'e1\loch\f0 \hich\f0  spolo\'e8\loch\f0 \hich\f0 nos\'9d\loch\f0 \hich\f0  sa neust\'e1\loch\f0 \hich\f0 le men\'ed\loch\f0 \hich\f0  , vyv\'ed\loch\f0 \hich\f0 ja a formuje, je st\'e1\loch\f0 
+\hich\f0 le oobnovovan\'e1\loch\f0 \hich\f0 , pretv\'e1\loch\f0 \hich\f0 ran\'e1\loch\f0 \hich\f0   a prech\'e1\loch\f0 \hich\f0 dza ustavi\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 mi zmenami.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Soci\'e1\hich\af0\dbch\af31505\loch\f0 lna zmena}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  - je podstatn\'e1\loch\f0 \hich\f0  zmena soci\'e1\loch\f0 \hich\f0 lneho usporiadania spolo\'e8\loch\f0 nosti.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Slovensk\'e1\loch\f0 \hich\f0  soci\'e1\loch\f0 \hich\f0 lna spolo\'e8\loch\f0 \hich\f0 nos\'9d}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  bola na za\'e8\loch\f0 \hich\f0 iatku 20.st ovplyvnen\'e1\loch\f0 \hich\f0  my\'9a\loch\f0 \hich\f0 lienkami napr\'ed\loch\f0 klad }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 A.Comta}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 . Jeho my\'9a\loch\f0 lien}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ky}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  ovplyvnili slovensk\'e9\loch\f0 \hich\f0  myslenie prostredn\'ed
+\loch\f0 ctvom tzv.realistic}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 e}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+ filozofie T. G. \hich\af0\dbch\af31505\loch\f0 Masar}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 yka. Bol to preziden 1. \'c8\loch\f0 esko-slo}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 venske}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 j}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  republiky /1918-1939/. \'c8\loch\f0 \hich\f0 esko-Slovensko bolo ustanoven\'e9\loch\f0 \hich\f0  ako parlamentn\'e1\loch\f0 \hich\f0  demokracia, riaden\'e1\loch\f0  parlamento}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 m}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 , ktor\'fd\loch\f0 \hich\f0  pozost\'e1\loch\f0 \hich\f0 val zo Sen\'e1
+\loch\f0 \hich\f0 tu a Poslaneckej snemovne. \'da\loch\f0 \hich\f0 stava zais\'9d\loch\f0 \hich\f0 ovala men\'9a\loch\f0 \hich\f0 in\'e1\loch\f0 \hich\f0 m, ktor\'e9\loch\f0 \hich\f0  v\'9a\loch\f0 ak tvorili viac ako\hich\af0\dbch\af31505\loch\f0 
+\hich\f0  20% popul\'e1\loch\f0 \hich\f0 cie, \'fa\loch\f0 \hich\f0 pln\'fa\loch\f0 \hich\f0  rovnopr\'e1\loch\f0 \hich\f0 vnos\'9d\loch\f0 \hich\f0 . N\'e1\loch\f0 \hich\f0 rodnostn\'e9\loch\f0 \hich\f0  men\'9a\loch\f0 iny mohli  slobod}{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ne}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  zaklad}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 a}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \loch\af0\dbch\af31505\hich\f0 \'9d\loch\f0 \hich\f0  organiz\'e1\loch\f0 c}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 e}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 i a r\'f4\loch\f0 \hich\f0 zne spolky. Vz\'9d\loch\f0 \hich\f0 ah \'9a
+\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu a ob\'e8\loch\f0 ano}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 v}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0  sa nezakladal na n\'e1\loch\f0 \hich\f0 rodnostnom, ale na ob\'e8\loch\f0 \hich\f0 ianskom princ\'ed\loch\f0 \hich\f0 pe. \'c8\loch\f0 \hich\f0 esko-Slovensk\'e1\loch\f0 \hich\f0  vl\'e1\loch\f0 \hich\f0 da bola zn
+\'e1\loch\f0 \hich\f0 ma najm\'e4\loch\f0  p}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 re svoju stabilitu}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 . Z\'e1\loch\f0 kla\hich\af0\dbch\af31505\loch\f0 \hich\f0 d tvorili politick\'e9\loch\f0 \hich\f0  strany, ktor\'fd\loch\f0 c}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 h}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  vedenie sa dok\'e1\loch\f0 \hich\f0 zalo skoro v\'9e\loch\f0 \hich\f0 dy nejako dohod\'fa\'9d\loch\f0 
+. Masarykova filozofi}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 a}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  mala osobit
+\'fd\loch\f0 \hich\f0  r\'e1\loch\f0 \hich\f0 z, nemo\'9e\loch\f0 \hich\f0 no ju ozna\'e8\loch\f0 \hich\f0 ova\'9d\loch\f0 \hich\f0  za pozitiv\'fa\loch\f0 \hich\f0  , no klasick\'fd\loch\f0 \hich\f0  pozitivizmus bol jed\'fd\loch\f0 \hich\f0 m z jej z
+\'e1\loch\f0 \hich\f0 kladn\'fd\loch\f0 \hich\f0 ch zdrojov. Na\'9a\loch\f0 \hich\f0 i vzdelanci si osvojili najm\'e4\loch\f0  odpor\hich\af0\dbch\af31505\loch\f0 \hich\f0  vo\'e8\loch\f0 \hich\f0 i \'9a\loch\f0 \hich\f0 pekulat\'ed\loch\f0 vnej filozof}{
+\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ii}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 , zd\'f4\loch\f0 \hich\f0 raz\'f2
+\loch\f0 \hich\f0 ovanie hodn\'f4\loch\f0 \hich\f0 t liberalizmu a demokracie. Predstavitelia tohto smeru v slovenskom myslen\'ed\loch\f0 \hich\f0  podporovali n\'e1\loch\f0 \hich\f0 rodn\'e9\loch\f0 \hich\f0  uvedomenie, nesk\'f4\loch\f0 \hich\f0 r pod
+\'be\loch\f0 ah}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 li}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  my\'9a\loch\f0 
+\hich\f0 lienke \'e8\loch\f0 echoslovakizmu. 
+\par 
+\par 
+\par \loch\af0\dbch\af31505\hich\f0 \'da\loch\f0 \hich\f0 stava 9.m\'e1\loch\f0 \hich\f0 ja deklarovala \'93\loch\f0 \hich\f0  v\'ed\'9d\loch\f0 \hich\f0 azstvo robotn\'ed\loch\f0 ckej tr\hich\af0\dbch\af31505\loch\f0 \hich\f0 iedy\'94\loch\f0 \hich\f0 
+ vo febru\'e1\loch\f0 \hich\f0 ri 1948. Za\'e8\loch\f0 \hich\f0 ali sa kl\'e1\loch\f0 \hich\f0 s\'9d\loch\f0 \hich\f0  z\'e1\loch\f0 \hich\f0 klady socializmu. Ved\'fa\loch\f0 \hich\f0 cou silou bola KS\'c8\loch\f0 \hich\f0 . Predov\'9a\loch\f0 \hich\f0 
+etk\'fd\loch\f0 \hich\f0 m do\'9a\loch\f0 \hich\f0 lo k \'fa\loch\f0 \hich\f0 plnej likvid\'e1\loch\f0 \hich\f0 cii s\'fa\loch\f0 \hich\f0 kromn\'e9\loch\f0 \hich\f0 ho sektora /a\'9e\loch\f0 \hich\f0  97% v\'fd\loch\f0 \hich\f0 roby sa dostalo do r\'fa
+\loch\f0 \hich\f0 k \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 \hich\f0 tu/. Po\'e8\loch\f0 \hich\f0 as tohto re\'9e\loch\f0 \hich\f0 imu, najm\'e4\loch\f0 \hich\f0  po\'e8\loch\f0 \hich\f0 as prv\'fd\loch\f0 \hich\f0 ch desiatich rokov, bolo st\'e1\loch\f0 
+\hich\f0 tis\'ed\loch\f0 \hich\f0 ce \'be\hich\af0\dbch\af31505\loch\f0 u\hich\af0\dbch\af31505\loch\f0 \hich\f0 d\'ed\loch\f0 \hich\f0  z politick\'fd}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 ch}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  d\'f4\loch\f0 \hich\f0 vodov uv\'e4\loch\f0 \hich\f0 znen\'fd\loch\f0 \hich\f0 ch alebo umiestnen\'fd
+\loch\f0 \hich\f0 ch do pracovn\'fd\loch\f0 \hich\f0 ch alebo koncentra\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0 ch t\'e1\loch\f0 \hich\f0 borov \'e8\loch\f0 \hich\f0 i PTP a tis\'ed\loch\f0 \hich\f0 ce \'ef\loch\f0 \hich\f0 al\'9a\'ed\loch\f0 
+\hich\f0 ch sa stali obe\'9d\loch\f0 \hich\f0 ou justi\'e8\loch\f0 \hich\f0 n\'fd\loch\f0 \hich\f0 ch vr\'e1\'9e\loch\f0 \hich\f0 d alebo zomreli vo v\'e4\loch\f0 \hich\f0 zen\'ed\loch\f0 \hich\f0  \'e8\loch\f0 \hich\f0 i pri pokuse o prekonanie \'9e
+\loch\f0 \hich\f0 eleznej opony. V\'ed\'9d\loch\f0 \hich\f0 azstvo komunistov a \'9a\loch\f0 \hich\f0 t\'e1\loch\f0 tny prev\hich\af0\dbch\af31505\loch\f0 \hich\f0 rat sp\'f4\loch\f0 sobili nielen nastolenie komunistickej totality, ale aj }{\rtlch\fcs1 
+\af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 definit\'ed\loch\f0 vne }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 podriadenie \'c8
+\loch\f0 \hich\f0 SR mocensk\'fd\loch\f0 \hich\f0 m z\'e1\loch\f0 ujmom ZSSR. 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 1960 bol socializmus dobudovan\'fd}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 
+\hich\f0 . Ofici\'e1\loch\f0 \hich\f0 lna ideol\'f3\loch\f0 gia bola lenizmus a}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512 \hich\af0\dbch\af31505\loch\f0  marxizmus. }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\b\fs24\insrsid9196512\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 Karl Marx}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid9196512 \hich\af0\dbch\af31505\loch\f0  sa orient}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 oval na filozof}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 i}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\hich\af0\dbch\af31505\loch\f0 \hich\f0 u \'e8\loch\f0 \hich\f0 loveka. Pr\'e1\loch\f0 cu pokladal\hich\af0\dbch\af31505\loch\f0 \hich\f0  za z\'e1\loch\f0 \hich\f0 kladn\'fa\loch\f0 \hich\f0  \'be\loch\f0 \hich\f0 udsk\'fa\loch\f0 \hich\f0  vlastnos\'9d
+\loch\f0 \hich\f0  ako pr\'ed\loch\f0 \hich\f0 rodnej a soci\'e1\loch\f0 \hich\f0 lnej bytosti. Marx tvrd\'ed\loch\f0 \hich\f0 , \'9e\loch\f0 \hich\f0 e odcudzenie pr\'e1\loch\f0 \hich\f0 ce mo\'9e\loch\f0 \hich\f0 no prekona\'9d\loch\f0 \hich\f0  len zru
+\'9a\loch\f0 \hich\f0 en\'ed\loch\f0 \hich\f0 m s\'fa\loch\f0 \hich\f0 kromn\'e9\loch\f0 \hich\f0 ho vlastn\'ed\loch\f0 \hich\f0 ctva. /Odcudzenie pr\'e1\loch\f0 \hich\f0 ce- na z\'e1\loch\f0 \hich\f0 klade s\'fa\loch\f0 \hich\f0 kromn\'e9\loch\f0 
+\hich\f0 ho vlastn\'ed\loch\f0 \hich\f0 ctva sa \'e8\loch\f0 \hich\f0 loveku odcudzuje produkt jeho pr\'e1\loch\f0 ce/. Na Slovensk\hich\af0\dbch\af31505\loch\f0 o\hich\af0\dbch\af31505\loch\f0 \hich\f0  za\'e8\loch\f0 \hich\f0 al marxizmus prenika\'9d
+\loch\f0 \hich\f0  s rozvojom soci\'e1\loch\f0 \hich\f0 lnodemokratick\'e9\loch\f0 \hich\f0 ho a nesk\'f4\loch\f0 \hich\f0 r najm\'e4\loch\f0 \hich\f0  komunistick\'e9\loch\f0 \hich\f0 ho politick\'e9}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 ho}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  hnutia / v \'f2\loch\f0 \hich\f0 om u\'9e\loch\f0 
+ ako marxizmus-lenizmus/.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 Janu\'e1\loch\f0 r  1968}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 
+ pokus o \'93\loch\f0 \hich\f0 socializmus s \'be\loch\f0 \hich\f0 udskou tv\'e1\loch\f0 \hich\f0 rou \'93\loch\f0 \hich\f0  /Pra\'9e\loch\f0 \hich\f0 sk\'e1\loch\f0 \hich\f0  jar/ bol zmaren\'fd\loch\f0 \hich\f0  vp\'e1\loch\f0 \hich\f0 dom vojsk Var\'9a
+\loch\f0 avskej zmluvy \hich\af0\dbch\af31505\loch\f0 v roku 1968.
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 
+\par \hich\af0\dbch\af31505\loch\f0 \hich\f0 Normaliz\'e1\loch\f0 cia}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0  /1969- 1988/ znamenal}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 
+\fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 a}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0  n\'e1\loch\f0 \hich\f0 vrat pred janu\'e1\loch\f0 \hich\f0 r 1968. Situ
+\'e1\loch\f0 \hich\f0 cia v roku 1968 ozna\'e8\loch\f0 e}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid3494348\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 n}{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 
+\loch\af0\dbch\af31505\hich\f0 \'e1\loch\f0 \hich\f0  za kontrarevolu\'e8\loch\f0 \hich\f0 n\'fa\loch\f0 \hich\f0 . Vznik\'e1\loch\f0 \hich\f0  Charta 77, hnutie za \'be\loch\f0 \hich\f0 udsk\'e9\loch\f0 \hich\f0  pr\'e1\loch\f0 va. 
+\par 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 1989 }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 ne\'9e\loch\f0 \hich\f0 n\'e1
+\loch\f0 \hich\f0  revol\'fa\loch\f0 cia, }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \b\fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0 \hich\f0 p\'e1\loch\f0 d komunizmu. 
+\par }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \fs24\insrsid8725503\charrsid9196512 \hich\af0\dbch\af31505\loch\f0                                    
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b0304140006000800000021006e475ca99b060000511b0000160000007468656d652f7468656d652f
+7468656d65312e786d6cec594f6fdb3614bf0fd87720746f6327761a07758ad8b19bad4d1bc46e871e698996d850a240d2497d1bdae38001c3ba618715d86d87
+a15b8116d8a53beda364ebb07540bfc21e494916637949da602bb6fa9048e48fefff7b7ca42e5fb91733744084a43c697bf58b350f91c4e7014dc2b6776bd8bf
+b0e621a9701260c613d2f6a6447a5736de7fef325e5711890982f5895cc76d2f522a5d5f5a923e0c637991a72481b931173156f02ac2a540e043a01bb3a5e55a
+6d7529c634f150826320bbc3d5cf8f0fd0cdf198fac4dbc8a9f718b04894d4033e13034d9b644b4ad860bfae11722abb4ca003ccda1e300af8e190dc531e6258
+2a98687b35f3f396362e2fe1f56c11530bd696d6f5cd2f5b972d08f6970d4f118e0aa6f57ea37569aba06f004ccde37abd5eb7572fe81900f67dd0d4ca52a6d9
+e8afd53b39cd12c83eced3eed69ab5868b2fd15f9993b9d5e9749aad4c164bd480ec63630ebf565b6d6c2e3b7803b2f8e61cbed1d9ec76571dbc0159fcea1cbe
+7fa9b5da70f10614319aeccfa1b543fbfd8c7a011973b65d095f03f85a2d83cf50100d45746916639ea845b116e3bb5cf401a0810c2b9a20354dc918fb10c65d
+1c8f04c59a015e27b83463877c3937a47921e90b9aaab6f7618a212566f45e3d7ffceaf9537474ffd9d1fd1f8f1e3c38baff8325e4acdac649585ef5f2dbcffe
+7cf431fae3e9372f1f7e518d9765fcafdf7ff2cb4f9f5703217d66e2bcf8f2c96fcf9ebcf8ead3dfbf7b5801df147854860f694c24ba410ed11e8f4131631557
+723212675b318c302dafd84c428913acb954d0efa9c841df98629679c791a3435c0bde16503eaa805727771d81079198285ac1f95a143bc01dce59878b4a2b5c
+d3bc4a661e4e92b09ab99894717b181f54f1eee2c4f16f6f9242ddccc3d251bc1b1147cc5d86138543921085f41cdf27a442bb3b943a76dda1bee0928f15ba43
+5107d34a930ce9c889a6d9a26d1a835fa6553a83bf1ddbecdc461dceaab4de22072e12b202b30ae187843966bc8a270ac7552487386665835fc72aaa12723015
+7e19d7930a3c1d12c6512f205256adb92940df92d3af61a858956edf61d3d8450a45f7ab685ec79c97915b7cbf1be138adc20e681295b11fc87d08518c76b9aa
+82ef703743f43bf801270bdd7d9b12c7dd2757835b3474449a05889e9908ed4b28d54e058e69f277e59851a8c73606ceaf1c43017cf1f5a38ac87a5b0bf126ec
+495599b07dacfc2ec21d2fba5d2e02faf6d7dc2d3c49760984f9fcc6f3aee4be2bb9de7fbee42ecae7d316da596d85b2abfb06db149b16395ed8218f29630335
+65e4ba344db2847d22e8c3a05e678e87a43831a5113c6675ddc185029b354870f51155d120c22934d8754f130965463a9428e5120e7666b892b6c64393aeecb1
+b0a90f0cb61e48ac7678608757f4707e2e28c898dd263487cf9cd18a26705a662b9732a2a0f6eb30ab6ba14ecdad6e4433a5cee156a80c3e9c570d060b6b4203
+82a06d012bafc2015db38683096624d076b77b6fee16e385f374918c7040321f69bde77d54374eca63c5dc0440ec54f8481ff24eb05a895b4b937d036ea77152
+995d6301bbdc7b6fe2a53c82675ed2797b2c1d59524e4e96a0c3b6d76a2e373de4e3b4ed8de14c0b8f710a5e97bae7c32c849b215f091bf62726b3c9f299375b
+b9626e12d4e19ac2da7d4e61a70ea442aa2d2c231b1a662a0b0196684e56fee52698f5bc14b091fe1a52acac4130fc6b52801d5dd792f198f8aaececd288b69d
+7dcd4a299f282206517088466c22f630b85f872ae81350095713a622e817b847d3d636536e71ce92ae7c7b6570761cb334c259b9d5299a67b2859b3c2e64306f
+25f140b74ad98d726757c5a4fc39a9520ee3ff992a7a3f819b8295407bc0877b5c8191ced7b6c7858a3854a134a27e5f40e3606a07440bdcc5c2340415dc269b
+ff821ce8ff36e72c0d93d670e0537b344482c27ea42241c82e9425137d2710ab677b9725c9324226a24ae2cad48a3d2207840d750d5cd57bbb87220875534db2
+326070c7e3cf7dcf326814ea26a79c6f4e0d29f65e9b03ff74e76393199472ebb0696872fb172256ecaa76bd599eefbd6545f4c4accd6ae45901cc4a5b412b4b
+fbd714e18c5badad58731a2f3773e1c08bf31ac360d110a570df83f41fd8ffa8f099fd32a137d421df83da8ae0438326066103517dc1361e4817483b3882c6c9
+0eda60d2a4ac69b3d6495b2ddfaccfb9d32df81e33b696ec34fe3ea3b18be6cc65e7e4e2791a3bb3b0636b3bb6d0d4e0d9e3290a43e3fc20631c63be6995bf3a
+f1d15d70f416dcef4f98922698e09b92c0d07a0e4c1e40f25b8e66e9c65f000000ffff0300504b0304140006000800000021000dd1909fb60000001b01000027
+0000007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0
+add40384e4350d363f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed156791
+4b284d262452282e3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f
+165dfe514173d9850528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c02000013000000
+00000000000000000000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b0000
+0000000000000000000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c000000000000000000
+00000000190200007468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d00140006000800000021006e475ca99b060000511b0000
+1600000000000000000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb6000000
+1b0100002700000000000000000000000000a50900007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000a00a00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax375\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdpriority9 \lsdlocked0 heading 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 2;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;
+\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Web 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;\lsdsemihidden1 \lsdunhideused1 \lsdpriority59 \lsdlocked0 Table Grid;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Table Theme;\lsdsemihidden1 \lsdlocked0 Placeholder Text;\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;
+\lsdpriority62 \lsdlocked0 Light Grid;\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;
+\lsdpriority68 \lsdlocked0 Medium Grid 2;\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;
+\lsdpriority60 \lsdlocked0 Light Shading Accent 1;\lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;
+\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;\lsdsemihidden1 \lsdlocked0 Revision;\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;
+\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;
+\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;\lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;
+\lsdpriority62 \lsdlocked0 Light Grid Accent 2;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdpriority62 \lsdlocked0 Light Grid Accent 5;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Mention;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hashtag;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Unresolved Mention;}}{\*\datastore 010500000200000018000000
+4d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000040a6
+af6ffeacd401feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
