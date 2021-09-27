@@ -1,2 +1,2 @@
 # Gymnazium-JMH-Cadca
-Moje zaciatky programovania
+Beginning of my career
